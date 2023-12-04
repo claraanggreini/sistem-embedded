@@ -1,4 +1,0 @@
-
-![motor](https://github.com/claraanggreini/sistem-embedded/assets/150989360/af5b8384-21e9-4e18-8e94-a2dc751229ab)
-
-<a>href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/JOB_1_BLINK_MILLIS/JOB_1_BLINK_MILLIS.ino"</a>
