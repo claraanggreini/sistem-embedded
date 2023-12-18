@@ -67,11 +67,11 @@ Program ini dirancang untuk menguji sensor sentuhan pada modul ESP32 dan mengend
 •	Memberikan waktu 1 detik untuk membuka serial monitor.
 •	Mengatur pin sentuhan, LED pertama, LED kedua, dan LED ketiga sebagai input atau output sesuai kebutuhan.
 3. Loop:
-•	Membaca nilai sensor sentuhan dari pin `touchPin` dan mencetaknya ke serial monitor.
-•	Jika nilai sentuhan kurang dari 20, menandakan sentuhan terdeteksi, maka `isTouched` diatur menjadi 1.
-•	Jika tidak terdeteksi sentuhan, `isTouched` diatur menjadi 0.
-•	Jika `isTouched` adalah 1, maka urutan LED `led1`, `led2`, dan `led3` akan dinyalakan secara bergantian dengan jeda 500 milidetik antara perubahan keadaan LED.
-•	Jika `isTouched` adalah 0, semua LED dimatikan dan diberikan jeda 10 milidetik.
+a. Membaca nilai sensor sentuhan dari pin `touchPin` dan mencetaknya ke serial monitor.
+b. Jika nilai sentuhan kurang dari 20, menandakan sentuhan terdeteksi, maka `isTouched` diatur menjadi 1.
+c. Jika tidak terdeteksi sentuhan, `isTouched` diatur menjadi 0.
+d. Jika `isTouched` adalah 1, maka urutan LED `led1`, `led2`, dan `led3` akan dinyalakan secara bergantian dengan jeda 500 milidetik antara perubahan keadaan LED.
+e. Jika `isTouched` adalah 0, semua LED dimatikan dan diberikan jeda 10 milidetik.
 
 Program ini jika sensor sentuhan terdeteksi maka LED akan bergerak secara berurutan dari kiri ke kanan dan berjalan secara loop. 
 
