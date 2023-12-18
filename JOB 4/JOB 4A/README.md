@@ -22,35 +22,9 @@
 
 ## 3. Source Code
 ### 3.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
-
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/97c137aa-6da6-456d-96c6-b2bc1fea5b69" width="500">
 
-<img src="" width="500">
-
-### 3.2. Source Code Transmisi Data Menggunakan Protokol HTTP
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
-<img src="" width="500">
-
-
-### 3.3. Source Code Transmisi Data Menggunakan Protokol MQTT
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
-<img src="" width="500">
-
-### 3.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
-<img src="" width="500">
-
-### 3.5. Source Code Tugas
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
-<img src="" width="500">
 
 ## 4. Hasil dan Pembahasan
 
