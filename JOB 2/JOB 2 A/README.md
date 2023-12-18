@@ -62,10 +62,10 @@ Program ini dirancang untuk menguji sensor sentuhan pada modul ESP32 dan mengend
 •	`led1`, `led2`, `led3`: Menunjukkan tiga buah LED yang terhubung ke GPIO 16, GPIO 17, dan GPIO 18.
 •	`runningLedState`: Variabel untuk menyimpan status dari LED yang bergerak (running LED).
 •	`isTouched`: Variabel untuk menyimpan status apakah sensor disentuh sebelumnya.
-2. Setup:
-•	Mengaktifkan komunikasi serial dengan kecepatan 115200 bps.
-•	Memberikan waktu 1 detik untuk membuka serial monitor.
-•	Mengatur pin sentuhan, LED pertama, LED kedua, dan LED ketiga sebagai input atau output sesuai kebutuhan.
+2. Setup:<br>
+•	Mengaktifkan komunikasi serial dengan kecepatan 115200 bps.<br>
+•	Memberikan waktu 1 detik untuk membuka serial monitor.<br>
+•	Mengatur pin sentuhan, LED pertama, LED kedua, dan LED ketiga sebagai input atau output sesuai kebutuhan.<br>
 3. Loop:<br>
     a. Membaca nilai sensor sentuhan dari pin `touchPin` dan mencetaknya ke serial monitor.<br>
     b. Jika nilai sentuhan kurang dari 20, menandakan sentuhan terdeteksi, maka `isTouched` diatur menjadi 1.<br>
