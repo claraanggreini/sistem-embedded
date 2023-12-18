@@ -59,9 +59,9 @@ Pembahasan:<br>
   1. Inisialisasi Perangkat dan Variabel:<br>
       1.	Program menggunakan pustaka SPI, MFRC522, dan ESP32Servo.
       2.	Dua pin (SS_PIN dan RST_PIN) ditentukan untuk komunikasi SPI dengan modul MFRC522.
-      3.	Sebuah objek `rfid` dari kelas MFRC522 dibuat untuk berkomunikasi dengan modul RFID.
-      4.	Sebuah array byte `keyTagUID` digunakan untuk menyimpan UID (Unique Identifier) dari            kartu RFID yang diizinkan.
-      5.	Sebuah objek `myservo` dari kelas Servo digunakan untuk mengendalikan servo motor.
+      3.	Sebuah objek rfid dari kelas MFRC522 dibuat untuk berkomunikasi dengan modul RFID.
+      4.	Sebuah array byte keyTagUID digunakan untuk menyimpan UID (Unique Identifier) dari            kartu RFID yang diizinkan.
+      5.	Sebuah objek myservo dari kelas Servo digunakan untuk mengendalikan servo motor.
       6.	Dua pin (greenLEDPin dan redLEDPin) ditentukan untuk mengendalikan LED hijau dan   merah sebagai indikator akses.
 
   2. Setup:<br>
