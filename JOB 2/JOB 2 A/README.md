@@ -5,9 +5,9 @@
 Percobaan ini bertujuan untuk memahami cara kerja protokol komunikasi yang terdapat pada ESP32, seperti UART, I2C, OneWire, SPI. Dilakukan dengan menguji sensor sentuhan pada modul ESP32 melalui serangkaian program. Pertama, nilai sensor sentuhan diukur dengan perubahan nilai pada pin sentuhan. Penggunaan serial plotter memungkinkan visualisasi grafik dinamis terhadap perubahan nilai sensor sentuhan seiring waktu, mengarah ke bawah saat disentuh dan ke atas saat dilepas. Selanjutnya, program mengintegrasikan sensor sentuhan dengan kontrol LED. Saat sensor mendeteksi sentuhan, LED menyala, dan sebaliknya. Variabel `isTouched` digunakan untuk melacak status sentuhan. Program juga memberikan respons visual berupa kedipan LED setiap 0.5 detik saat sensor disentuh dan memastikan LED mati jika tidak ada sentuhan. Pada eksperimen lainnya, program mencatat jumlah sentuhan dan menampilkannya di serial monitor. Dengan variabel `isTouched`, jumlah sentuhan hanya dicatat saat sentuhan pertama kali terdeteksi. Terakhir, program menciptakan efek visual dengan LED bergerak dari kiri ke kanan secara berurutan jika sensor sentuhan terdeteksi, menciptakan respons visual yang menarik dan berguna dalam pengembangan proyek dengan interaksi sentuhan.
 
 ## 2. Rangkaian
-###Rangkaian 1 (Untuk langkah 1 hingga 8)
+### Rangkaian 1 (Untuk langkah 1 hingga 8)
 <img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
-###Rangkaian 2 (Umtuk langkah 9)
+### Rangkaian 2 (Umtuk langkah 9)
 <img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
 
 ## 3. Source Code
