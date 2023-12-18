@@ -1,139 +1,98 @@
-# 1. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+# PEMROGRAMAN DASAR NODE-RED
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT.
+<p align="justify">Praktikum ini bertujuan untuk memberikan pemahaman dasar pemrograman menggunakan Node-Red serta kemampuan untuk membuat aplikasi server sederhana. Node-RED adalah sebuah alat pemrograman berbasis grafis, memungkinkan pengguna menyatukan perangkat keras, API, dan layanan online dengan cara yang inovatif. Dengan editor berbasis browser, pengguna dapat dengan mudah menyusun alur program menggunakan berbagai node yang tersedia dalam palet, yang dapat dijalankan secara instan. Node-Red juga memiliki kemampuan untuk berfungsi sebagai backend server IoT dengan menggunakan bahasa pemrograman JavaScript. Percobaan ini mencakup beberapa sub-topik, seperti Basic Flow, Function Node, Switch Node, dan JSON Parsing, yang bertujuan untuk memperdalam pemahaman praktis terkait penggunaan Node-Red. Selanjutnya, pada praktikum melibatkan tugas untuk membuat arsitektur sistem IoT yang menggunakan semua fungsi Hands-On, dengan format data multi-input termasuk String, Boolean, Number, dan JSON. Setiap input hasilnya ditampilkan dalam Debug Node yang berbeda, memperlihatkan aplikasi praktis dari pemahaman dasar yang diperoleh melalui praktikum ini. Diharapkan bahwa hasil praktikum ini akan memberikan pemahaman mengenai pemrograman berbasis Node-Red dan penggunaan berbagai node dalam konteks pemrograman aplikasi server sederhana.
 
-## 2. Rangkaian
-### 2.1 Rangkaian 1 (Untuk langkah 1 hingga 8)
-<img src="3" width="500">
+## 2. Alat dan Bahan
+**Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
+1) Perangkat terpasang Node-Red
 
-### 2.2 Rangkaian 2 (Untuk langkah 9)
-<img src="3" width="500">
+## 3. Rangkaian
+### 3.1 Rangkaian 1 (Sub A Basic Flow)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/483eb299-f3a4-4489-aa2e-c0cd24020121" width="500">
 
-### 2.2 Rangkaian 3 (Untuk langkah 9)
-<img src="3" width="500">
+### 3.2 Rangkaian 2 (Sub B Function Node)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/d61885f6-f018-4328-b884-0f02b452aa95" width="500">
 
-### 2.2 Rangkaian 4 (Untuk langkah 9)
-<img src="3" width="500">
+### 3.3 Rangkaian 3 (Sub C Switch Node)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/5ecf2baf-4aa7-4d36-af05-04f413d354eb" width="500">
 
-### 2.2 Rangkaian 5 (Untuk langkah 9)
-<img src="3" width="500">
+### 3.4 Rangkaian 4 (Sub D JSON Parsing)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/7945ebe2-dfa2-465a-a731-6ef811376496" width="500">
 
-## 3. Source Code
-### 3.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+### 3.5 Rangkaian 5 (Untuk Tugas)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/32d40ca7-5d4d-47e0-b3e8-916938b003e0" width="500">
 
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
+## 4. Source Code/Flow Chart
+### 4.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 <img src="" width="500">
 
-### 3.2. Source Code Transmisi Data Menggunakan Protokol HTTP
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
+### 4.2. Source Code Transmisi Data Menggunakan Protokol HTTP
 <img src="" width="500">
 
-
-### 3.3. Source Code Transmisi Data Menggunakan Protokol MQTT
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
+### 4.3. Source Code Transmisi Data Menggunakan Protokol MQTT
 <img src="" width="500">
 
-### 3.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
+### 4.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 <img src="" width="500">
 
-### 3.5. Source Code Tugas
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
+### 4.5. Source Code Tugas
 <img src="" width="500">
 
-## 4. Hasil dan Pembahasan
+## 5. Hasil dan Pembahasan
 
-### 4.1 Video Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/3ab6735d-a1a3-42bc-8573-f29020c89050
-
-Pembahasan:<br> 
-<p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.<br>
-  
-  1. void setup(): Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, kemudian terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu bagi pengguna membuka serial monitor. Terakhir, pesan "ESP32 Touch Test" dicetak ke serial monitor.<br>
-  2. void loop(): Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada kode ini, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi touchRead(4). Nilai yang dibaca kemudian dicetak ke serial monitor. Terdapat juga delay 1000 milidetik (1 detik) sebelum membaca nilai lagi.<br>
-
-<p align="justify">Dengan menjalankan program ini dan membuka serial monitor, maka dapat melihat nilai yang dibaca dari pin sentuhan. Nilai ini akan bervariasi tergantung pada seberapa kuat atau lemah sentuhan yang diberikan pada pin sentuhan tersebut, semakin kuat sentuhannya maka nilainya semakin kecil, begitu pula sebaliknya. Program ini berguna untuk menguji fungsi sensor sentuhan pada modul ESP32 dan dapat membantu dalam pengembangan proyek-proyek yang melibatkan interaksi sentuhan.
-
-### 4.2 Video Transmisi Data Menggunakan Protokol HTTP
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/600a2cfe-b6ab-4730-b8a7-89d684f6a751
+### 5.1 Sub A Basic Flow
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/b8d29d74-b097-4fa8-9de3-23758e08f7f0
 
 Pembahasan:<br> 
-<p align="justify">Dengan menggunakan serial plotter maka akan menampilkan plot grafik yang menunjukkan perubahan nilai sensor sentuhan seiring waktu. Hal ini dapat membantu untuk memahami pola dan variasi nilai sensor sentuhan secara dinamis. Hasilnya adalah Jika sensor disentuh grafiknya mengarah ke bawah dan jika di lepas maka grafiknya mengarah ke atas.
+<p align="justify">Pada percobaan Basic Flow ini ada beberapa hal penting:<br>
 
-### 4.3 Video Transmisi Data Menggunakan Protokol MQTT
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/05842439-eead-45c7-a514-7aba4a3adf00
+  1.	Persiapan Perangkat dan Node-RED:<br>
+  Sebelum melakukan percobaan, pastikan perangkat komputer sudah terpasang Node-RED. Langkah ini menjadi prasyarat utama untuk menjalankan percobaan dengan sukses.<br>
+  2.	Pembuatan Basic Flow:<br>
+  Pembuatan Basic Flow dilakukan dengan mengintegrasikan node input dan output. Proses ini bertujuan untuk memahami dasar dari penyusunan alur program menggunakan Node-RED.<br>
+  3.	Konfigurasi Node Input:<br>
+  Dengan double klik pada node input, dilakukan konfigurasi pada inject/input node. Pesan ("msg.payload=Hello World" dan "msg.topic=test") yang dihasilkan akan menjadi data input untuk proses selanjutnya. Ini menunjukkan fleksibilitas dalam mengatur parameter input pada Node-RED.<br>
+  4.	Konfigurasi Node Output/Debug:<br>
+  Langkah selanjutnya adalah melakukan konfigurasi pada node output/debug dengan mengatur output "msg.payload" ke jendela debug. Hal ini berarti pesan yang dihasilkan dari node input akan ditampilkan pada debug window. Konfigurasi ini penting untuk memonitor dan memahami alur program serta hasilnya.<br>
+  5.	Tahap Akhir:<br>
+  Setelah konfigurasi selesai, langkah terakhir adalah mengeksekusi program dengan menekan tombol "Deploy". Hasil yang diharapkan adalah munculnya pesan "successfully injected: test: Hello World". Keberhasilan ini menunjukkan bahwa flow program berjalan dengan baik, dan data input yang telah dikonfigurasi berhasil diinjeksikan dan ditampilkan dengan benar pada debug window.<br>
 
-Pembahasan:<br> 
-<p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan sebuah LED berdasarkan nilai yang dibaca dari pin sentuhan. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.<br>
-  
-  1. const int led = 16;: Mendefinisikan variabel konstan led dengan nilai 16, yang merujuk pada pin GPIO 16 pada ESP32. LED akan dihubungkan ke pin ini.<br>
-  2. void setup(): Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu bagi pengguna membuka serial monitor, kemudian pesan "ESP32 Touch Test" dicetak ke serial monitor. Selain itu, pin yang terhubung ke LED (led) diatur sebagai OUTPUT menggunakan pinMode().<br>
-   3. void loop(): Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada loop, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi touchRead(4). Jika nilai yang dibaca kurang dari 20, maka LED yang terhubung ke pin GPIO 16 akan dinyalakan (digitalWrite(led, HIGH)); sebaliknya, jika nilai lebih besar atau sama dengan 20, LED akan dimatikan (digitalWrite(led, LOW)).<br>
 
-Dengan program ini, LED akan menyala saat sensor sentuhan mendeteksi sentuhan dengan tingkat kepekaan tertentu dan LED akan mati jika tidak mendeteksi sentuhan pada sensor.<br>
+<p align="justify">Melalui analisis langkah-langkah percobaan Basic Flow, dapat disimpulkan bahwa Node-RED memberikan pengguna kemudahan dalam mengembangkan flow program secara visual dan efisien. Pengaturan input dan output pada node-node tersebut memberikan kontrol yang baik terhadap alur program yang dibuat.
 
-### 4.4 Video Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/806e8629-5429-4198-afc4-86a905844999
-
-Pembahasan:<br> 
-<p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan LED berdasarkan nilai yang dibaca dari pin sentuhan. <br>
-  
-  1. const int led = 16;: Mendefinisikan variabel konstan led dan memberikan nilai 16 sebagai nomor pin LED.<br>
-  2. bool isTouched = false;: Variabel boolean untuk menyimpan status apakah sensor disentuh sebelumnya.<br>
-  3. bool isLedOn = false;: Variabel boolean untuk menyimpan status apakah LED sedang menyala.<br>
-  4. void setup(): Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Mengaktifkan komunikasi serial dengan kecepatan 115200 bps, memberikan delay 1000 milidetik (1 detik) untuk memberikan waktu membuka serial monitor, mencetak teks "ESP32 Touch Test" ke serial monitor, dan mengatur pin LED sebagai pin keluaran.<br>
-  5. void loop(): Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada loop, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi touchRead(4).<br>
-  6. Jika nilai sentuhan (touchValue) kurang dari 20, variabel isTouched diatur menjadi true, dan sebaliknya diatur menjadi false.<br>
-  7. Selanjutnya, LED diatur berdasarkan status isTouched dan isLedOn. Jika isTouched true dan isLedOn false, LED dinyalakan; sebaliknya, jika isTouched true dan isLedOn true, LED dimatikan. Terdapat juga delay 500 milidetik (0.5 detik) antara setiap blink LED.<br>
-  8. Jika isTouched false, LED dimatikan dan isLedOn diatur menjadi false.<br>
-
-Program ini memberikan respons visual pada LED berdasarkan sentuhan pada sensor. Jika sensor disentuh, LED akan berkedip setiap 0.5 detik dan jika tidak disentuh, LED akan mati. Variabel isTouched dan isLedOn digunakan untuk melacak status sentuhan dan status LED saat ini.<br>
-
-### 4.5 Video Tugas
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/48a4fbf8-2cd4-4f36-b936-8e2f33faa7e5
+### 5.2 Sub B Function Node
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/dfc58fc9-d71c-4452-953a-3c9ac24c9195
 
 Pembahasan:<br> 
-<p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan sebuah LED. <br>
-  
-  1. const int led = 16;: Mendefinisikan variabel konstan led dan memberikan nilai 16 sebagai nomor pin LED.<br>
-  2. bool isTouched = false;: Mendeklarasikan variabel boolean isTouched dan menginisialisasinya sebagai false. Variabel ini menyimpan status apakah sensor disentuh sebelumnya.<br>
-  3. int touchCount = 0 : Mendeklarasikan variabel integer 'touchCount dan menginisialisasinya sebagai 0. Variabel ini menyimpan jumlah sentuhan.<br>
-  4. void setup(): Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu membuka serial monitor, kemudian pesan ESP32 Touch Test dicetak ke serial monitor. Selain itu, pin yang terhubung ke LED ('led') diatur sebagai OUTPUT menggunakan pinMode().<br>
-  5. void loop(): Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada setiap iterasi loop, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi touchRead(4). Jika nilai yang dibaca kurang dari 20, LED akan dinyalakan dan jumlah sentuhan akan ditambah satu. Informasi ini kemudian dicetak ke serial monitor. Jika nilai lebih besar atau sama dengan 20, LED dimatikan dan status isTouched diatur kembali menjadi false.<br>
+<p align="justify">Pada praktikum ini melibatkan fungsi dengan terdiri dari 2 flow, yakni flow tunggal dan berganda. Pada langkah 1 melibatkan pembuatan flow fungsi output tunggal, yang mencakup node input, fungsi, dan output tunggal. Node input digunakan untuk menyuntikkan pesan ke dalam flow, fungsi node berfungsi untuk memproses pesan tersebut, dan output node digunakan untuk menampilkan hasilnya. Pada langkah 2 melibatkan konfigurasi pada node Input1, di mana payload diatur sebagai "Hello World" dan topik sebagai "test1". Pada langkah 3 adalah deploy program dan dokumentasikan hasilnya. Hasilnya akan menunjukkan bahwa pesan "Hello World" dengan topik "test1" akan diteruskan oleh fungsi node dan ditampilkan pada output tunggal. Pada langkah 4 melibatkan pembuatan flow fungsi output berganda, yang kali ini mencakup node input, fungsi, dan dua output nodes. Pada langkah 5 adalah konfigurasi pada node Input2, dengan payload "Expeliarmus" dan topik "test2".Pada langkah 6 melibatkan konfigurasi pada node fungsi, di mana pesan akan dipisahkan berdasarkan topik. Jika topik adalah "test1" atau "test2", pesan akan diteruskan ke output masing-masing; jika tidak, pesan akan diabaikan. Dan pada langkah 7 adalah melakukan deploy program, dan hasilnya adalah pemisahan pesan "Hello World" dan "Expeliarmus" sesuai dengan topiknya. Pesan dengan topik "test1" akan muncul pada output 1, sementara pesan dengan topik "test2" akan muncul pada output 2.<br>
 
-<p align="justify">Program ini dirancang untuk memberikan respons visual (LED menyala) dan pencatatan jumlah sentuhan setiap kali sensor sentuhan mendeteksi sentuhan dan jumlah sentuhan tersebut akan ditampilkan pdi serial monitor. Variabel isTouched digunakan untuk memastikan bahwa pencatatan jumlah sentuhan hanya terjadi saat sentuhan pertama kali terdeteksi.<br>
+<p align="justify">Secara keseluruhan, percobaan ini menunjukkan kemampuan Node-RED dalam mengolah pesan dan memisahkannya berdasarkan kondisi tertentu menggunakan fungsi node. Ini memberikan fleksibilitas dalam pengaturan alur program untuk kebutuhan khusus dan meningkatkan fungsionalitas sistem secara modular.<br>
 
-### 4.6 Video Langkah 9
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/e8b54d40-b6a0-4ecd-a8fa-7b67e5668738
+### 5.3 Sub C Switch Node
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/4b29b7f4-04e2-4334-b256-e92d20cebfc9
 
 Pembahasan:<br> 
-<p align="justify">Program ini dirancang untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan tiga buah LED. 
+<p align="justify">Pada praktikum ini melibatkan Switch Node. Ada beberapa langkh dalam hal ini. Langkah 1 melibatkan pembuatan flow dengan dua input (30 dan 27) yang terhubung ke switch node, dan switch node terhubung ke dua output. Input nodes berisi angka 30 dan 27, sementara switch node memproses pesan sesuai dengan kondisi yang diatur, mengarahkan pesan ke salah satu output berdasarkan nilai payload. Pada langkah 2 melibatkan konfigurasi pada Inject Nodes. Inject Node 1 diatur dengan payload 28, sedangkan Inject Node 2 diatur dengan payload 27. Payload ini nantinya akan diinjeksikan ke dalam flow untuk diproses oleh switch node. Langkah 3 melibatkan konfigurasi pada switch node. Property switch diatur untuk memeriksa nilai payload (msg.payload) dan membaginya ke dua output berdasarkan kondisi: yang pertama jika payload > 28, yang kedua jika payload <= 28. "Stopping after first match" diaktifkan, sehingga setelah kondisi pertama terpenuhi, switch node tidak akan memproses kondisi lainnya. Langkah 4 adalah mendeploy flow. Hasilnya adalah ketika input 30 diinjeksikan, output pada debug node akan menampilkan nilai 30. Begitu pula ketika input 27 diinjeksikan, output pada debug node akan menampilkan nilai 27. Hal ini menunjukkan bahwa switch node secara efektif memisahkan dan mengarahkan pesan sesuai dengan kondisi yang telah diatur.<br>
+
+<p align="justify">Dengan demikian secara keseluruhan, percobaan ini mengilustrasikan penggunaan switch node untuk mengarahkan alur program berdasarkan nilai payload, memberikan fleksibilitas dalam pengolahan data dan pengambilan keputusan dalam alur program Node-RED.<br>
+
+### 5.4 Sub D JSON Parsing
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/541ec6d2-8a3f-4309-b124-f0244422b2d3
+
+Pembahasan:<br> 
+<p align="justify">Pada praktikum ini melibatkan JSON Parsing. Ada beberapa langkh dalam hal ini. Langkah 1 melibatkan pembuatan flow dengan input node (name=V1) yang terhubung ke node JSON, node JSON terhubung ke node fungsi, dan node fungsi terhubung ke output node (msg.payload). Ini menciptakan alur data yang melibatkan parsing JSON. Langkah 2 melibatkan konfigurasi pada Inject Node, JSON Parser Node, dan Function Node. Pada Inject Node, pesan dikonfigurasi dengan payload {temp:27, humidity:50} dan topik "sensor". Pada JSON Parser Node, pengaturan dilakukan dengan mengubah pesan menjadi objek JavaScript dan mengatur propertinya pada msg.payload. Pada Function Node, dilakukan pengaturan variabel obj untuk menyimpan nilai payload, dan kemudian nilai msg.payload diubah menjadi obj.temperature, lalu pesan dikembalikan. Dan pada langkah 3 adalah mendeploy flow. Hasilnya adalah ketika input diinjeksikan, nilai 27 dari properti "temperature" pada objek JSON akan diambil, diproses oleh fungsi, dan hasilnya akan ditampilkan pada debug node.<br>
+
+<p align="justify">Dengan begitu secara keseluruhan, percobaan ini berhasil menunjukkan penggunaan JSON parsing dalam Node-RED. Input JSON berhasil diubah menjadi objek JavaScript dan nilai tertentu diambil dan dimanipulasi menggunakan fungsi node. Hal ini memperlihatkan kemampuan Node-RED untuk mengolah dan memanipulasi data dalam format JSON dengan mudah dan efektif.<br>
+
+### 5.5 Tugas
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/31fc56a3-a433-4d65-b56e-ade00e47b48d
+
+Pembahasan:<br> 
+<p align="justify">Arsitektur sistem IoT yang dibuat menggunakan Node-RED mencakup empat input (string, boolean, number, dan JSON) yang terhubung ke switch. Switch ini kemudian terhubung ke tiga output dan satu node JSON. JSON node tersebut menghubungkan tiga fungsi (fungtion 4, fungtion 5, dan fungtion 6), dan setiap fungsi terhubung ke satu output. Pada konfigurasi input, setiap input memiliki pengaturan khusus sesuai dengan format data yang diinginkan (string, boolean, number, dan JSON). Setelah melewati switch, data kemudian diarahkan ke fungsi-fungsi yang spesifik sesuai dengan payload yang ada pada masing-masing input. Fungsi-fungsi (fungtion 4, fungtion 5, dan fungtion 6) dirancang untuk mengambil nilai tertentu dari objek JSON yang diterima. Fungtion 4 mengambil nilai suhu (temp), fungtion 5 mengambil nilai kelembaban (humidity), dan fungtion 6 mengambil nilai pH dari objek JSON.Hasil dari percobaan ini mengindikasikan bahwa sistem bekerja sesuai yang diinginkan:<br>
   
-1. Inisialisasi Pin dan Variabel:<br>
-•  touchPin: Menunjukkan pin sentuhan (Touch 0) yang terhubung ke GPIO 4.<br>
-•  led1, led2, led3: Menunjukkan tiga buah LED yang terhubung ke GPIO 16, GPIO 17, dan GPIO 18.<br>
-•  runningLedState: Variabel untuk menyimpan status dari LED yang bergerak (running LED).<br>
-•  isTouched: Variabel untuk menyimpan status apakah sensor disentuh sebelumnya.<br>
-2. Setup:<br>
-•	Mengaktifkan komunikasi serial dengan kecepatan 115200 bps.<br>
-•	Memberikan waktu 1 detik untuk membuka serial monitor.<br>
-•	Mengatur pin sentuhan, LED pertama, LED kedua, dan LED ketiga sebagai input atau output sesuai kebutuhan.<br>
-3. Loop:<br>
-•	Membaca nilai sensor sentuhan dari pin 'touchPin`' dan mencetaknya ke serial monitor.<br>
-•	Jika nilai sentuhan kurang dari 20, menandakan sentuhan terdeteksi, maka 'isTouched' diatur menjadi 1.<br>
-•	Jika tidak terdeteksi sentuhan, 'isTouched' diatur menjadi 0.<br>
-•	Jika 'isTouched' adalah 1, maka urutan LED 'led1', 'led2', dan 'led3' akan dinyalakan secara bergantian dengan jeda 500 milidetik antara perubahan keadaan LED.<br>
-•	Jika 'isTouched' adalah 0, semua LED dimatikan dan diberikan jeda 10 milidetik.<br>
-  
-Program ini jika sensor sentuhan terdeteksi maka LED akan bergerak secara berurutan dari kiri ke kanan dan berjalan secara loop. 
+  1. Saat input string di-klik, debug node pertama menampilkan 'Hello world'.
+  2.	Saat input boolean di-klik, debug node kedua menampilkan 'true'.
+  3.	Saat input number di-klik, debug node ketiga menampilkan '10'.
+  4.	Saat input JSON di-klik, debug node keempat menampilkan 'debug 4=27, debug 5=50, dan debug 6=7'.
