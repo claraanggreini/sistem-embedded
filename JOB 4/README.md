@@ -1,4 +1,4 @@
-# Jobsheet 2 - PROTOKOL KOMUNIKASI DAN SENSOR 
+# Jobsheet 4 - RANSMISI DATA MENGGUNAKAN PROTOKOL HTTP DAN MQTT
 
 <p align="justify">ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI. Terdapat point penting dalam percobaan kali ini, yaitu :
 
@@ -8,19 +8,18 @@
 
 Terdapat 3 percobaan dalam jobsheet ini yaitu :
 
-1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/README.md">EP32 Capacitive Touch Sensor
-2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20B#readme">Mengakses Sensor DHT 11 (Single Wire  BUS)
-3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/README.md">Mengakses Sensor RFID (SPI Communication)
+1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/README.md">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20B#readme">Transmisi Data Menggunakan Protokol HTTP
+3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/README.md"> Transmisi Data Menggunakan Protokol MQTT
 
 ## Alat dan Bahan
 **Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
 1) ESP32
 2) Breadboard
 3) Kabel jumper
-4) Sensor DHT11, RFID
-5) LED (5) dan Push Button (3)
-6) Servo
-7) Resistor 330,1K, 10K Ohm (@ 3)
+4) Sensor DHT 11
+5) LED (5)
+6) Resistor 330,1K, 10K Ohm (@ 3)
 
 > [!NOTE]  
 > *Buka folder subjob percobaan untuk melihat laporan*
