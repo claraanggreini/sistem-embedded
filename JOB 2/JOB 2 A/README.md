@@ -14,31 +14,31 @@
 ## 3. Source Code
 ### 3.1. Source Code Langkah 1-4
 
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_2/JOB2_A_langkah_2.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/323398a8-2da6-4771-a14a-549a836b2daf" width="500">
 
 ### 3.2. Source Code Langkah 5-6
 
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_6/JOB2_A_langkah_6.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/0851e50e-c98e-41d6-bdf8-52a30ba59cbe" width="500">
 
 ### 3.3. Source Code Langkah 7
 
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_7/JOB2_A_langkah_7.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c39988e0-863e-48b5-b9c6-705151433dce" width="500">
 
 ### 3.4. Source Code Langkah 8
 
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_8/JOB2_A_langkah_8.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/413a1578-6c03-4c05-9218-e105fd99c418" width="500">
 
 ### 3.5. Source Code Langkah 9
 
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_9/JOB2_A_langkah_9.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/d2bbb386-8d18-4875-8b17-84aa3a1eb765" width="500">
 
@@ -46,7 +46,6 @@ Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/b
 
 ### 4.1 Video Langkah 1-2
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/3ab6735d-a1a3-42bc-8573-f29020c89050
-
 
 Pembahasan:<br> 
 <p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.<br>
