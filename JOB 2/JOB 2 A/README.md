@@ -17,7 +17,68 @@ Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/b
 
 ## 4. Hasil dan Pembahasan
 
-### Hasil Percobaan
+### Video Langkah 1-2
+Pembahasan: 
+Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.
+•	`void setup()`: Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, kemudian terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu bagi pengguna membuka serial monitor. Terakhir, pesan "ESP32 Touch Test" dicetak ke serial monitor.
+•	`void loop()`: Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada kode ini, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi `touchRead(4)`. Nilai yang dibaca kemudian dicetak ke serial monitor. Terdapat juga delay 1000 milidetik (1 detik) sebelum membaca nilai lagi.
+Dengan menjalankan program ini dan membuka serial monitor, maka dapat melihat nilai yang dibaca dari pin sentuhan. Nilai ini akan bervariasi tergantung pada seberapa kuat atau lemah sentuhan yang diberikan pada pin sentuhan tersebut, semakin kuat sentuhannya maka nilainya semakin kecil, begitu pula sebaliknya. Program ini berguna untuk menguji fungsi sensor sentuhan pada modul ESP32 dan dapat membantu dalam pengembangan proyek-proyek yang melibatkan interaksi sentuhan.
+
+### Video Langkah 3-4
+Dengan menggunakan serial plotter maka akan menampilkan plot grafik yang menunjukkan perubahan nilai sensor sentuhan seiring waktu. Hal ini dapat membantu untuk memahami pola dan variasi nilai sensor sentuhan secara dinamis. Hasilnya adalah Jika sensor disentuh grafiknya mengarah ke bawah dan jika di lepas maka grafiknya mengarah ke atas.
+
+### Video Langkah 5-6
+Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan sebuah LED berdasarkan nilai yang dibaca dari pin sentuhan. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.
+•	`const int led = 16;`: Mendefinisikan variabel konstan `led` dengan nilai 16, yang merujuk pada pin GPIO 16 pada ESP32. LED akan dihubungkan ke pin ini.
+•	`void setup()`: Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu bagi pengguna membuka serial monitor, kemudian pesan "ESP32 Touch Test" dicetak ke serial monitor. Selain itu, pin yang terhubung ke LED (`led`) diatur sebagai OUTPUT menggunakan `pinMode()`.
+•	`void loop()`: Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada loop, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi `touchRead(4)`. Jika nilai yang dibaca kurang dari 20, maka LED yang terhubung ke pin GPIO 16 akan dinyalakan (`digitalWrite(led, HIGH)`); sebaliknya, jika nilai lebih besar atau sama dengan 20, LED akan dimatikan (`digitalWrite(led, LOW)`).
+Dengan program ini, LED akan menyala saat sensor sentuhan mendeteksi sentuhan dengan tingkat kepekaan tertentu dan LED akan mati jika tidak mendeteksi sentuhan pada sensor.
+
+### Video Langkah 7
+Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan LED berdasarkan nilai yang dibaca dari pin sentuhan. 
+•	`const int led = 16;`: Mendefinisikan variabel konstan `led` dan memberikan nilai 16 sebagai nomor pin LED.
+•	`bool isTouched = false;`: Variabel boolean untuk menyimpan status apakah sensor disentuh sebelumnya.
+•	`bool isLedOn = false;`: Variabel boolean untuk menyimpan status apakah LED sedang menyala.
+•	`void setup()`: Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Mengaktifkan komunikasi serial dengan kecepatan 115200 bps, memberikan delay 1000 milidetik (1 detik) untuk memberikan waktu membuka serial monitor, mencetak teks "ESP32 Touch Test" ke serial monitor, dan mengatur pin LED sebagai pin keluaran.
+•	`void loop()`: Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada loop, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi `touchRead(4)`.
+•	Jika nilai sentuhan (`touchValue`) kurang dari 20, variabel `isTouched` diatur menjadi true, dan sebaliknya diatur menjadi false.
+•	Selanjutnya, LED diatur berdasarkan status `isTouched` dan `isLedOn`. Jika `isTouched` true dan `isLedOn` false, LED dinyalakan; sebaliknya, jika `isTouched` true dan `isLedOn` true, LED dimatikan. Terdapat juga delay 500 milidetik (0.5 detik) antara setiap blink LED.
+•	Jika `isTouched` false, LED dimatikan dan `isLedOn` diatur menjadi false.
+Program ini memberikan respons visual pada LED berdasarkan sentuhan pada sensor. Jika sensor disentuh, LED akan berkedip setiap 0.5 detik dan jika tidak disentuh, LED akan mati. Variabel `isTouched` dan `isLedOn` digunakan untuk melacak status sentuhan dan status LED saat ini.
+
+### Video Langkah 8
+Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan sebuah LED. 
+•	`const int led = 16;`: Mendefinisikan variabel konstan `led` dan memberikan nilai 16 sebagai nomor pin LED.
+•	`bool isTouched = false;`: Mendeklarasikan variabel boolean `isTouched` dan menginisialisasinya sebagai false. Variabel ini menyimpan status apakah sensor disentuh sebelumnya.
+•	`int touchCount = 0;`: Mendeklarasikan variabel integer `touchCount` dan menginisialisasinya sebagai 0. Variabel ini menyimpan jumlah sentuhan.
+•	`void setup()`: Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu membuka serial monitor, kemudian pesan "ESP32 Touch Test" dicetak ke serial monitor. Selain itu, pin yang terhubung ke LED (`led`) diatur sebagai OUTPUT menggunakan `pinMode()`.
+•	`void loop()`: Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada setiap iterasi loop, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi `touchRead(4)`. Jika nilai yang dibaca kurang dari 20, LED akan dinyalakan dan jumlah sentuhan akan ditambah satu. Informasi ini kemudian dicetak ke serial monitor. Jika nilai lebih besar atau sama dengan 20, LED dimatikan dan status `isTouched` diatur kembali menjadi false.
+Program ini dirancang untuk memberikan respons visual (LED menyala) dan pencatatan jumlah sentuhan setiap kali sensor sentuhan mendeteksi sentuhan dan jumlah sentuhan tersebut akan ditampilkan pdi serial monitor. Variabel `isTouched` digunakan untuk memastikan bahwa pencatatan jumlah sentuhan hanya terjadi saat sentuhan pertama kali terdeteksi.
+
+### Video Langkah 9
+Program ini dirancang untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan tiga buah LED. 
+1. Inisialisasi Pin dan Variabel:
+•	`touchPin`: Menunjukkan pin sentuhan (Touch 0) yang terhubung ke GPIO 4.
+•	`led1`, `led2`, `led3`: Menunjukkan tiga buah LED yang terhubung ke GPIO 16, GPIO 17, dan GPIO 18.
+•	`runningLedState`: Variabel untuk menyimpan status dari LED yang bergerak (running LED).
+•	`isTouched`: Variabel untuk menyimpan status apakah sensor disentuh sebelumnya.
+2. Setup:
+•	Mengaktifkan komunikasi serial dengan kecepatan 115200 bps.
+•	Memberikan waktu 1 detik untuk membuka serial monitor.
+•	Mengatur pin sentuhan, LED pertama, LED kedua, dan LED ketiga sebagai input atau output sesuai kebutuhan.
+3. Loop:
+•	Membaca nilai sensor sentuhan dari pin `touchPin` dan mencetaknya ke serial monitor.
+•	Jika nilai sentuhan kurang dari 20, menandakan sentuhan terdeteksi, maka `isTouched` diatur menjadi 1.
+•	Jika tidak terdeteksi sentuhan, `isTouched` diatur menjadi 0.
+•	Jika `isTouched` adalah 1, maka urutan LED `led1`, `led2`, dan `led3` akan dinyalakan secara bergantian dengan jeda 500 milidetik antara perubahan keadaan LED.
+•	Jika `isTouched` adalah 0, semua LED dimatikan dan diberikan jeda 10 milidetik.
+
+Program ini jika sensor sentuhan terdeteksi maka LED akan bergerak secara berurutan dari kiri ke kanan dan berjalan secara loop. 
+
+
+
+
+
 
 ![A1 -GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/9c47b131-de2f-461a-8ef7-82372f1d5113)
 
