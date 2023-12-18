@@ -1,116 +1,41 @@
-# 1. EP32 | A. Capacitive Touch Sensor
+![2  B (3)](https://github.com/claraanggreini/sistem-embedded/assets/150989360/299acd56-2ad3-46ae-aa0a-d73c8708e5b3)# 1. EP32 | B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
 ## 1. Keterangan Singkat (Abstrak)
 
-Dalam percobaan ini program dibuat untuk dapat memahami bagaimana cara kerja protokol komunikasi yang terdapat pada ESP32 seperti UART, 12C, OneWire dan SPI dan bagaimana cara memanfaatkan tranducer sensor dan actuator untuk perangkat IoT.
+<p align="justify">Percobaan ini bertujuan untuk memahami cara kerja protokol komunikasi menggunakan sensor DHT 11 yang terdiri dari dua bagian terpisah, dengan setiap bagian bertanggung jawab untuk fungsi tertentu. Bagian pertama menekankan penggunaan ESP32 dan sensor sentuh yang terhubung ke pin GPIO tertentu. Selain itu, juga memanfaatkan variabel isTouched untuk menyimpan status apakah sensor disentuh sebelumnya. 
 
 ## 2. Rangkaian
+### 2.1 Rangkaian 1 (Untuk langkah 3)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9374e1b6-7046-4baa-9b58-ffccb34a0bc3" width="500">
 
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
+### 2.2 Rangkaian 2 (Untuk langkah 4)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/32125933-927f-4358-a0ae-4aa975b1096d" width="500">
 
 ## 3. Source Code
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/1.%20program%20contoh%20touch%20test/touch_1.ino"> disini </a> atau dibawah ini
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a7fa7af9-3a41-4f59-b262-d289d74a95a7" width="800">
+### 3.1. Source Code Langkah 1-3
+
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20B/JOB2_B_langkah_3/JOB2_B_langkah_3.ino"> disini </a> atau dibawah ini
+
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/da062124-8752-42ed-8b75-90f9ff95f191" width="500">
+
+### 3.2. Source Code Langkah 4
+
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20B/JOB2_B_langkah_4/JOB2_B_langkah_4.ino"> disini </a> atau dibawah ini
+
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/ed65d795-1505-4bbb-8bfb-5a116fa2e439" width="500">
+
 
 ## 4. Hasil dan Pembahasan
 
-### Hasil Percobaan
+### 4.1 Video Langkah 1-3
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/7aa65f52-94b2-4164-a02e-280385ab2a18
 
-![A1 -GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/9c47b131-de2f-461a-8ef7-82372f1d5113)
+Pembahasan:<br> 
+<p align="justify">Program ini terdiri dari dua bagian yang terpisah, masing-masing bertanggung jawab untuk fungsi tertentu. Pada bagian Pertama (Touch Sensor dan LED) menggunakan ESP32 untuk membaca nilai dari sensor sentuh (Touch Sensor) yang terhubung ke pin GPIO 4. Terdapat tiga LED yang terhubung ke pin GPIO 16, 17, dan 18. Jika nilai yang dibaca dari sensor sentuh kurang dari 20, program akan mengatur running LED untuk bergerak dari kiri ke kanan dengan memberikan jeda 500 milidetik antara perubahan keadaan LED. Jika sensor tidak disentuh, semua LED dimatikan dan diberi jeda 10 milidetik. Program menggunakan variabel `isTouched` untuk menyimpan status apakah sensor disentuh sebelumnya. Pada bagian Kedua menggunakan DHT11 Sensor untuk Suhu dan Kelembaban).Ada tiga library yang digunakan yakni DHT Sensor Library, Adafruit Unified Sensor Lib, dan DHT.h. Dalam loop, program menunggu selama 2 detik sebelum membaca data dari sensor. Program mencetak nilai kelembaban, suhu dalam derajat Celsius, dan suhu dalam derajat Fahrenheit ke serial monito dan jika pembacaan sensor gagal, program mencetak pesan kesalahan.
 
-<p align="justify">Dari praktikum ini merupakan sketsa (sketch) untuk penguji sentuhan (touch test) pada modul ESP32 menggunakan pin sentuh Touch0. Hasilnya saat kabel jumper disentuh (berfungsi sebagai sensor) maka dibaca nilai digital dan tampil pada serial monitor.
-<br></br>
+### 4.2 Video Langkah 4
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/899ad4b5-dadf-48aa-abdf-d14bb39dedbd
 
-# 2. EP32 | LED menyala ketika Sensor disentuh
+Pembahasan:<br> 
+<p align="justify">Program ini terdiri dari dua bagian yang terpisah, masing-masing bertanggung jawab untuk fungsi tertentu. Bagian Pertama (Touch Sensor dan LED). Program ini menggunakan ESP32 dengan tiga LED yang terhubung ke pin GPIO 16, 17, dan 18. Sensor sentuh (Touch Sensor) terhubung ke pin GPIO 4. Program membaca nilai dari sensor sentuh dan mencetak nilainya ke serial monitor. Jika nilai sensor sentuh kurang dari 20, program mengatur variabel isTouched menjadi 1. Jika isTouched sama dengan 1, program mengatur urutan LED dengan memberikan jeda 500 milidetik antara perubahan keadaan LED. Jika tidak disentuh, semua LED dimatikan. Terdapat duplikasi fungsi setup() yang harus diatasi. Bagian Kedua (DHT11 Sensor untuk Suhu dan Kelembaban). Program ini menggunakan sensor suhu dan kelembaban DHT11. Ada tiga LED (ledh, ledk, ledm) dan sebuah buzzer yang terhubung ke pin GPIO 5, 18, 19, dan 21. Program mencetak pesan ke serial monitor dan membaca nilai kelembaban dan suhu dari sensor DHT11. Jika pembacaan sensor berhasil, program menghitung indeks panas dalam Fahrenheit dan Celsius. Jika suhu lebih dari 32°C, program menyalakan LEDM dan menghidupkan buzzer selama 500 milidetik, kemudian mematikan buzzer selama 500 milidetik. Jika suhu kurang dari atau sama dengan 32°C, program mengatur urutan LEDH, LEDK, LEDM, LEDK secara bergantian dengan jeda 500 milidetik antara perubahan keadaan.
 
-## 1. Keterangan Singkat (Abstrak)
-
-Dalam percobaan ini program dibuat untuk dapat menghasilkan LED akan memberikan respon menyala apabila sensor disentuh().
-
-## 2. Rangkaian
-
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
-
-## 3. Source Code
-
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/2.%20LED%20menyala%20ketika%20sensor%20disentuh%2C%20dan%20LED%20akan%20mati%20ketika%20sensor%20tidak%20disentuh/touch_2.ino"> disini </a> atau dibawah ini
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/c6c95bb7-e30f-444d-8647-563d43122433" width="800">
-
-## 4. Hasil dan Pembahasan
-
-### Hasil Percobaan
-
-![A2 -GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/cac2a02f-19f3-4078-8398-693716043600)
-
-<p align="justify">Pada percobaan ini merupakan pengujian touch sensor dengan ditambahkan kontrol LED yang akan menyala ketika sentuhan terdeteksi. Hasilnya saat ada sentuhan maka LED akan menyala dan saat tidak ada sentuhan LED akan mati.
-<br></br>
-
-# 3. EP32 | Ketika sensor disentuh maka LED Blink akan menyala
-
-## 1. Keterangan Singkat (Abstrak)
-
-Dalam percobaan ini program dibuat untuk dapat melihat ketika sensor disentuh, LED akan menyala Blink dan menampilkan angka yang akan bertambah setiap kali sensor disentuh.
-
-## 2. Rangkaian
-
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
-
-## 3. Source Code
-
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/3.%20ketika%20sensor%20disentuh%2C%20LED%20menyala%20Blink/touch_3.ino"> disini </a> atau dibawah ini
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/58c30ecc-3956-4c74-baf2-fbbc00b837d9" width="800">
-
-## 4. Hasil dan Pembahasan
-
-### Hasil Percobaaan
-
-![A3 -GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/fff6f9c0-11f3-4fad-ac58-d290e9ddfe1c)
-
-<p align="justify">Program ini menggunakan ESP32 yang mengontol LED untuk menyala Blink ketika touch sensor disentuh. 
-<br></br>
-
-# 4. EP32 | Saat LED menyala Serial Monitor menampilkan angka yang akan bertambah setiap kali sensor disentuh
-
-## 1. Keterangan Singkat (Abstrak)
-
-Dalam percobaan ini program dibuat untuk menguji sentuhan pada modul ESP32 dengan menambahkan fitur penghitungan sentuhan saat LED menyala
-
-## 2. Rangkaian
-
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
-
-## 3. Source Code
-
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/4.%20ketika%20LED%20menyala%20Serial%20Monitor%20menampilkan%20angka%20yang%20akan%20bertambah%20setiap%20kali%20sensor%20disentuh/touch_4.ino"> disini </a> atau dibawah ini
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/143daddd-db19-40c0-a695-77d3cc0cf1e1" width="800">
-
-## 4. Hasil dan Pembahasan
-
-### Hasil Percobaan 
-
-![A4 -GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/88aab4cf-7d8a-4b73-8a2a-468da4fdc2f5)
-
-<p align="justify">Dalam percobaan ini saat touch sensor disentuh maka LED menyala dan pada Serial Monitor akan menampilkan angka yang akan bertambah setiap kali sensor disentuh.
-<br></br>
-
-# 5. EP32 | LED nyala running saat sensor disentuh
-
-## 1. Keterangan Singkat (Abstrak)
-Dalam percobaan ini digunakan 3 LED yang akan menyala running saat sensor disentuh. Jika tidak ada sentuhan yang terdeteksi, semua LED dimatikan.
-
-## 2. Rangkaian
-
-<img src="https://github.com/brianrahma/brian-system-embedded/assets/82065700/a2ec94fc-6dae-40a9-9d52-f26ad5704a8e" width="600">
-
-## 3. Source Code
-
-Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/blob/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor/5.%20LED%20nyala%20running%20saat%20sensor%20disentuh/touch_5.ino"> disini</a> atau dibawah ini
-<img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/83c476ae-a76f-447c-9ecf-2c20fee24fd4" width="800">
-
-## 4. Hasil dan Pembahasan
-
-### Hasil Percobaan
-
-![A5 -GIF](https://github.com/brianrahma/brian-system-embedded/assets/82065700/7dc1c2e8-8bf7-4603-84e6-d7bd56f8a6a0)
-
-<p align="justify">Dengan program di atas dalam percobaan ini yaitu ketika sensor disentuh, LED akan menyala menjadi running LED yang bergerak dari kiri ke kanan, kemudian kanan ke kiri secara kontinyu. Hasil output dari program ini akan menampilkan nilai sensor sentuh pada Serial Monitor. Kesimpulannya, program ini membuat 3 LED untuk menyala menjadi running LED ketika sensor disentuh.
