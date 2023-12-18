@@ -9,7 +9,7 @@
 Terdapat 3 percobaan dalam jobsheet ini yaitu :
 
 1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/README.md">EP32 Capacitive Touch Sensor
-2. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%202/b.%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20%20BUS)">Mengakses Sensor DHT 11 (Single Wire  BUS)
+2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20B#readme">Mengakses Sensor DHT 11 (Single Wire  BUS)
 3. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%202/c.%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)">Mengakses Sensor RFID (SPI Communication)
 
 ## Alat dan Bahan
