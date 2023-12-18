@@ -9,7 +9,7 @@
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6ac11528-263c-4209-ac74-5e1cb9fc3509" width="500">
 
 ## 3. Source Code
-### 3.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+### Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 
 Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204A/JOB4_A/JOB4_A.ino"> disini </a> atau dibawah ini
 
