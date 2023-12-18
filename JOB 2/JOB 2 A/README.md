@@ -5,10 +5,10 @@
 <p align="justify">Percobaan ini bertujuan untuk memahami cara kerja protokol komunikasi yang terdapat pada ESP32, seperti UART, I2C, OneWire, SPI. Dilakukan dengan menguji sensor sentuhan pada modul ESP32 melalui serangkaian program. Pertama, nilai sensor sentuhan diukur dengan perubahan nilai pada pin sentuhan. Penggunaan serial plotter memungkinkan visualisasi grafik dinamis terhadap perubahan nilai sensor sentuhan seiring waktu, mengarah ke bawah saat disentuh dan ke atas saat dilepas. Selanjutnya, program mengintegrasikan sensor sentuhan dengan kontrol LED. Saat sensor mendeteksi sentuhan, LED menyala, dan sebaliknya. Variabel isTouched digunakan untuk melacak status sentuhan. Program juga memberikan respons visual berupa kedipan LED setiap 0.5 detik saat sensor disentuh dan memastikan LED mati jika tidak ada sentuhan. Pada eksperimen lainnya, program mencatat jumlah sentuhan dan menampilkannya di serial monitor. Dengan variabel isTouched, jumlah sentuhan hanya dicatat saat sentuhan pertama kali terdeteksi. Terakhir, program menciptakan efek visual dengan LED bergerak dari kiri ke kanan secara berurutan jika sensor sentuhan terdeteksi, menciptakan respons visual yang menarik dan berguna dalam pengembangan proyek dengan interaksi sentuhan.
 
 ## 2. Rangkaian
-### Rangkaian 1 (Untuk langkah 1 hingga 8)
+### 2.1 Rangkaian 1 (Untuk langkah 1 hingga 8)
 <img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
 
-### Rangkaian 2 (Untuk langkah 9)
+### 2.2 Rangkaian 2 (Untuk langkah 9)
 <img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
 
 ## 3. Source Code
@@ -45,6 +45,8 @@ Program dapat dilihat <a href="https://github.com/sabrinavirry/Sistem-Embedded/b
 ## 4. Hasil dan Pembahasan
 
 ### 4.1 Video Langkah 1-2
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/3ab6735d-a1a3-42bc-8573-f29020c89050
+
 
 Pembahasan:<br> 
 <p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.<br>
@@ -55,10 +57,14 @@ Pembahasan:<br>
 <p align="justify">Dengan menjalankan program ini dan membuka serial monitor, maka dapat melihat nilai yang dibaca dari pin sentuhan. Nilai ini akan bervariasi tergantung pada seberapa kuat atau lemah sentuhan yang diberikan pada pin sentuhan tersebut, semakin kuat sentuhannya maka nilainya semakin kecil, begitu pula sebaliknya. Program ini berguna untuk menguji fungsi sensor sentuhan pada modul ESP32 dan dapat membantu dalam pengembangan proyek-proyek yang melibatkan interaksi sentuhan.
 
 ### 4.2 Video Langkah 3-4
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/600a2cfe-b6ab-4730-b8a7-89d684f6a751
+
 Pembahasan:<br> 
 <p align="justify">Dengan menggunakan serial plotter maka akan menampilkan plot grafik yang menunjukkan perubahan nilai sensor sentuhan seiring waktu. Hal ini dapat membantu untuk memahami pola dan variasi nilai sensor sentuhan secara dinamis. Hasilnya adalah Jika sensor disentuh grafiknya mengarah ke bawah dan jika di lepas maka grafiknya mengarah ke atas.
 
 ### 4.3 Video Langkah 5-6
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/05842439-eead-45c7-a514-7aba4a3adf00
+
 Pembahasan:<br> 
 <p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan sebuah LED berdasarkan nilai yang dibaca dari pin sentuhan. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.<br>
   
@@ -69,6 +75,8 @@ Pembahasan:<br>
 Dengan program ini, LED akan menyala saat sensor sentuhan mendeteksi sentuhan dengan tingkat kepekaan tertentu dan LED akan mati jika tidak mendeteksi sentuhan pada sensor.<br>
 
 ### 4.4 Video Langkah 7
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/806e8629-5429-4198-afc4-86a905844999
+
 Pembahasan:<br> 
 <p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan LED berdasarkan nilai yang dibaca dari pin sentuhan. <br>
   
@@ -84,6 +92,8 @@ Pembahasan:<br>
 Program ini memberikan respons visual pada LED berdasarkan sentuhan pada sensor. Jika sensor disentuh, LED akan berkedip setiap 0.5 detik dan jika tidak disentuh, LED akan mati. Variabel isTouched dan isLedOn digunakan untuk melacak status sentuhan dan status LED saat ini.<br>
 
 ### 4.5 Video Langkah 8
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/48a4fbf8-2cd4-4f36-b936-8e2f33faa7e5
+
 Pembahasan:<br> 
 <p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan sebuah LED. <br>
   
@@ -96,6 +106,12 @@ Pembahasan:<br>
 <p align="justify">Program ini dirancang untuk memberikan respons visual (LED menyala) dan pencatatan jumlah sentuhan setiap kali sensor sentuhan mendeteksi sentuhan dan jumlah sentuhan tersebut akan ditampilkan pdi serial monitor. Variabel isTouched digunakan untuk memastikan bahwa pencatatan jumlah sentuhan hanya terjadi saat sentuhan pertama kali terdeteksi.<br>
 
 ### 4.6 Video Langkah 9
+
+
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/e8b54d40-b6a0-4ecd-a8fa-7b67e5668738
+
+
+
 Pembahasan:<br> 
 <p align="justify">Program ini dirancang untuk menguji sensor sentuhan pada modul ESP32 dan mengendalikan tiga buah LED. 
   
