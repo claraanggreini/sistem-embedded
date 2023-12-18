@@ -1,50 +1,60 @@
-# 1. EP32 | A. Capacitive Touch Sensor
+# 1. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Percobaan ini bertujuan untuk memahami cara kerja protokol komunikasi yang terdapat pada ESP32, seperti UART, I2C, OneWire, SPI. Dilakukan dengan menguji sensor sentuhan pada modul ESP32 melalui serangkaian program. Pertama, nilai sensor sentuhan diukur dengan perubahan nilai pada pin sentuhan. Penggunaan serial plotter memungkinkan visualisasi grafik dinamis terhadap perubahan nilai sensor sentuhan seiring waktu, mengarah ke bawah saat disentuh dan ke atas saat dilepas. Selanjutnya, program mengintegrasikan sensor sentuhan dengan kontrol LED. Saat sensor mendeteksi sentuhan, LED menyala, dan sebaliknya. Variabel isTouched digunakan untuk melacak status sentuhan. Program juga memberikan respons visual berupa kedipan LED setiap 0.5 detik saat sensor disentuh dan memastikan LED mati jika tidak ada sentuhan. Pada eksperimen lainnya, program mencatat jumlah sentuhan dan menampilkannya di serial monitor. Dengan variabel isTouched, jumlah sentuhan hanya dicatat saat sentuhan pertama kali terdeteksi. Terakhir, program menciptakan efek visual dengan LED bergerak dari kiri ke kanan secara berurutan jika sensor sentuhan terdeteksi, menciptakan respons visual yang menarik dan berguna dalam pengembangan proyek dengan interaksi sentuhan.
+<p align="justify">Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT.
 
 ## 2. Rangkaian
 ### 2.1 Rangkaian 1 (Untuk langkah 1 hingga 8)
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
+<img src="3" width="500">
 
 ### 2.2 Rangkaian 2 (Untuk langkah 9)
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8616c7bd-1c72-40bf-8b93-2ee3ceff0fbb" width="500">
+<img src="3" width="500">
+
+### 2.2 Rangkaian 3 (Untuk langkah 9)
+<img src="3" width="500">
+
+### 2.2 Rangkaian 4 (Untuk langkah 9)
+<img src="3" width="500">
+
+### 2.2 Rangkaian 5 (Untuk langkah 9)
+<img src="3" width="500">
 
 ## 3. Source Code
-### 3.1. Source Code Langkah 1-4
+### 3.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_2/JOB2_A_langkah_2.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/323398a8-2da6-4771-a14a-549a836b2daf" width="500">
+<img src="" width="500">
 
-### 3.2. Source Code Langkah 5-6
+### 3.2. Source Code Transmisi Data Menggunakan Protokol HTTP
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_6/JOB2_A_langkah_6.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/0851e50e-c98e-41d6-bdf8-52a30ba59cbe" width="500">
+<img src="" width="500">
 
-### 3.3. Source Code Langkah 7
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_7/JOB2_A_langkah_7.ino"> disini </a> atau dibawah ini
+### 3.3. Source Code Transmisi Data Menggunakan Protokol MQTT
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c39988e0-863e-48b5-b9c6-705151433dce" width="500">
+Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
-### 3.4. Source Code Langkah 8
+<img src="" width="500">
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_8/JOB2_A_langkah_8.ino"> disini </a> atau dibawah ini
+### 3.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/413a1578-6c03-4c05-9218-e105fd99c418" width="500">
+Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
-### 3.5. Source Code Langkah 9
+<img src="" width="500">
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_9/JOB2_A_langkah_9.ino"> disini </a> atau dibawah ini
+### 3.5. Source Code Tugas
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/d2bbb386-8d18-4875-8b17-84aa3a1eb765" width="500">
+Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+
+<img src="" width="500">
 
 ## 4. Hasil dan Pembahasan
 
-### 4.1 Video Langkah 1-2
+### 4.1 Video Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/3ab6735d-a1a3-42bc-8573-f29020c89050
 
 Pembahasan:<br> 
@@ -55,13 +65,13 @@ Pembahasan:<br>
 
 <p align="justify">Dengan menjalankan program ini dan membuka serial monitor, maka dapat melihat nilai yang dibaca dari pin sentuhan. Nilai ini akan bervariasi tergantung pada seberapa kuat atau lemah sentuhan yang diberikan pada pin sentuhan tersebut, semakin kuat sentuhannya maka nilainya semakin kecil, begitu pula sebaliknya. Program ini berguna untuk menguji fungsi sensor sentuhan pada modul ESP32 dan dapat membantu dalam pengembangan proyek-proyek yang melibatkan interaksi sentuhan.
 
-### 4.2 Video Langkah 3-4
+### 4.2 Video Transmisi Data Menggunakan Protokol HTTP
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/600a2cfe-b6ab-4730-b8a7-89d684f6a751
 
 Pembahasan:<br> 
 <p align="justify">Dengan menggunakan serial plotter maka akan menampilkan plot grafik yang menunjukkan perubahan nilai sensor sentuhan seiring waktu. Hal ini dapat membantu untuk memahami pola dan variasi nilai sensor sentuhan secara dinamis. Hasilnya adalah Jika sensor disentuh grafiknya mengarah ke bawah dan jika di lepas maka grafiknya mengarah ke atas.
 
-### 4.3 Video Langkah 5-6
+### 4.3 Video Transmisi Data Menggunakan Protokol MQTT
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/05842439-eead-45c7-a514-7aba4a3adf00
 
 Pembahasan:<br> 
@@ -73,7 +83,7 @@ Pembahasan:<br>
 
 Dengan program ini, LED akan menyala saat sensor sentuhan mendeteksi sentuhan dengan tingkat kepekaan tertentu dan LED akan mati jika tidak mendeteksi sentuhan pada sensor.<br>
 
-### 4.4 Video Langkah 7
+### 4.4 Video Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/806e8629-5429-4198-afc4-86a905844999
 
 Pembahasan:<br> 
@@ -90,7 +100,7 @@ Pembahasan:<br>
 
 Program ini memberikan respons visual pada LED berdasarkan sentuhan pada sensor. Jika sensor disentuh, LED akan berkedip setiap 0.5 detik dan jika tidak disentuh, LED akan mati. Variabel isTouched dan isLedOn digunakan untuk melacak status sentuhan dan status LED saat ini.<br>
 
-### 4.5 Video Langkah 8
+### 4.5 Video Tugas
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/48a4fbf8-2cd4-4f36-b936-8e2f33faa7e5
 
 Pembahasan:<br> 
