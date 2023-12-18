@@ -1,24 +1,24 @@
-# 1. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+# PEMROGRAMAN DASAR NODE-RED
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT.
+<p align="justify">Praktikum ini bertujuan untuk memberikan pemahaman dasar pemrograman menggunakan Node-Red serta kemampuan untuk membuat aplikasi server sederhana. Node-RED adalah sebuah alat pemrograman berbasis grafis, memungkinkan pengguna menyatukan perangkat keras, API, dan layanan online dengan cara yang inovatif. Dengan editor berbasis browser, pengguna dapat dengan mudah menyusun alur program menggunakan berbagai node yang tersedia dalam palet, yang dapat dijalankan secara instan. Node-Red juga memiliki kemampuan untuk berfungsi sebagai backend server IoT dengan menggunakan bahasa pemrograman JavaScript. Percobaan ini mencakup beberapa sub-topik, seperti Basic Flow, Function Node, Switch Node, dan JSON Parsing, yang bertujuan untuk memperdalam pemahaman praktis terkait penggunaan Node-Red. Selanjutnya, pada praktikum melibatkan tugas untuk membuat arsitektur sistem IoT yang menggunakan semua fungsi Hands-On, dengan format data multi-input termasuk String, Boolean, Number, dan JSON. Setiap input hasilnya ditampilkan dalam Debug Node yang berbeda, memperlihatkan aplikasi praktis dari pemahaman dasar yang diperoleh melalui praktikum ini. Diharapkan bahwa hasil praktikum ini akan memberikan pemahaman mengenai pemrograman berbasis Node-Red dan penggunaan berbagai node dalam konteks pemrograman aplikasi server sederhana.
 
 ## 2. Rangkaian
-### 2.1 Rangkaian 1 (Untuk langkah 1 hingga 8)
-<img src="3" width="500">
+### 2.1 Rangkaian 1 (Sub A Basic Flow)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/483eb299-f3a4-4489-aa2e-c0cd24020121" width="500">
 
-### 2.2 Rangkaian 2 (Untuk langkah 9)
-<img src="3" width="500">
+### 2.2 Rangkaian 2 (Sub B Function Node)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/d61885f6-f018-4328-b884-0f02b452aa95" width="500">
 
-### 2.2 Rangkaian 3 (Untuk langkah 9)
-<img src="3" width="500">
+### 2.2 Rangkaian 3 (Sub C Switch Node)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/5ecf2baf-4aa7-4d36-af05-04f413d354eb" width="500">
 
-### 2.2 Rangkaian 4 (Untuk langkah 9)
-<img src="3" width="500">
+### 2.2 Rangkaian 4 (Sub D JSON Parsing)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/7945ebe2-dfa2-465a-a731-6ef811376496" width="500">
 
-### 2.2 Rangkaian 5 (Untuk langkah 9)
-<img src="3" width="500">
+### 2.2 Rangkaian 5 (Untuk Tugas)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/32d40ca7-5d4d-47e0-b3e8-916938b003e0" width="500">
 
 ## 3. Source Code
 ### 3.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
