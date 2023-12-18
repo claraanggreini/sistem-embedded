@@ -4,57 +4,59 @@
 
 <p align="justify">Praktikum ini bertujuan untuk memberikan pemahaman dasar pemrograman menggunakan Node-Red serta kemampuan untuk membuat aplikasi server sederhana. Node-RED adalah sebuah alat pemrograman berbasis grafis, memungkinkan pengguna menyatukan perangkat keras, API, dan layanan online dengan cara yang inovatif. Dengan editor berbasis browser, pengguna dapat dengan mudah menyusun alur program menggunakan berbagai node yang tersedia dalam palet, yang dapat dijalankan secara instan. Node-Red juga memiliki kemampuan untuk berfungsi sebagai backend server IoT dengan menggunakan bahasa pemrograman JavaScript. Percobaan ini mencakup beberapa sub-topik, seperti Basic Flow, Function Node, Switch Node, dan JSON Parsing, yang bertujuan untuk memperdalam pemahaman praktis terkait penggunaan Node-Red. Selanjutnya, pada praktikum melibatkan tugas untuk membuat arsitektur sistem IoT yang menggunakan semua fungsi Hands-On, dengan format data multi-input termasuk String, Boolean, Number, dan JSON. Setiap input hasilnya ditampilkan dalam Debug Node yang berbeda, memperlihatkan aplikasi praktis dari pemahaman dasar yang diperoleh melalui praktikum ini. Diharapkan bahwa hasil praktikum ini akan memberikan pemahaman mengenai pemrograman berbasis Node-Red dan penggunaan berbagai node dalam konteks pemrograman aplikasi server sederhana.
 
-## 2. Rangkaian
-### 2.1 Rangkaian 1 (Sub A Basic Flow)
+## 2. Alat dan Bahan
+
+## 3. Rangkaian
+### 3.1 Rangkaian 1 (Sub A Basic Flow)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/483eb299-f3a4-4489-aa2e-c0cd24020121" width="500">
 
-### 2.2 Rangkaian 2 (Sub B Function Node)
+### 3.2 Rangkaian 2 (Sub B Function Node)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/d61885f6-f018-4328-b884-0f02b452aa95" width="500">
 
-### 2.2 Rangkaian 3 (Sub C Switch Node)
+### 3.3 Rangkaian 3 (Sub C Switch Node)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/5ecf2baf-4aa7-4d36-af05-04f413d354eb" width="500">
 
-### 2.2 Rangkaian 4 (Sub D JSON Parsing)
+### 3.4 Rangkaian 4 (Sub D JSON Parsing)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/7945ebe2-dfa2-465a-a731-6ef811376496" width="500">
 
-### 2.2 Rangkaian 5 (Untuk Tugas)
+### 3.5 Rangkaian 5 (Untuk Tugas)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/32d40ca7-5d4d-47e0-b3e8-916938b003e0" width="500">
 
-## 3. Source Code
-### 3.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+## 4. Source Code
+### 4.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 <img src="" width="500">
 
-### 3.2. Source Code Transmisi Data Menggunakan Protokol HTTP
+### 4.2. Source Code Transmisi Data Menggunakan Protokol HTTP
 
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 <img src="" width="500">
 
 
-### 3.3. Source Code Transmisi Data Menggunakan Protokol MQTT
+### 4.3. Source Code Transmisi Data Menggunakan Protokol MQTT
 
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 <img src="" width="500">
 
-### 3.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
+### 4.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 <img src="" width="500">
 
-### 3.5. Source Code Tugas
+### 4.5. Source Code Tugas
 
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 <img src="" width="500">
 
-## 4. Hasil dan Pembahasan
+## 5. Hasil dan Pembahasan
 
-### 4.1 Sub A Basic Flow
+### 5.1 Sub A Basic Flow
 
 
 Pembahasan:<br> 
@@ -74,7 +76,7 @@ Pembahasan:<br>
 
 <p align="justify">Melalui analisis langkah-langkah percobaan Basic Flow, dapat disimpulkan bahwa Node-RED memberikan pengguna kemudahan dalam mengembangkan flow program secara visual dan efisien. Pengaturan input dan output pada node-node tersebut memberikan kontrol yang baik terhadap alur program yang dibuat.
 
-### 4.2 Sub B Function Node
+### 5.2 Sub B Function Node
 
 
 Pembahasan:<br> 
@@ -82,14 +84,14 @@ Pembahasan:<br>
 
 <p align="justify">Secara keseluruhan, percobaan ini menunjukkan kemampuan Node-RED dalam mengolah pesan dan memisahkannya berdasarkan kondisi tertentu menggunakan fungsi node. Ini memberikan fleksibilitas dalam pengaturan alur program untuk kebutuhan khusus dan meningkatkan fungsionalitas sistem secara modular.<br>
 
-### 4.3 Sub C Switch Node
+### 5.3 Sub C Switch Node
 
 Pembahasan:<br> 
 <p align="justify">Pada praktikum ini melibatkan Switch Node. Ada beberapa langkh dalam hal ini. Langkah 1 melibatkan pembuatan flow dengan dua input (30 dan 27) yang terhubung ke switch node, dan switch node terhubung ke dua output. Input nodes berisi angka 30 dan 27, sementara switch node memproses pesan sesuai dengan kondisi yang diatur, mengarahkan pesan ke salah satu output berdasarkan nilai payload. Pada langkah 2 melibatkan konfigurasi pada Inject Nodes. Inject Node 1 diatur dengan payload 28, sedangkan Inject Node 2 diatur dengan payload 27. Payload ini nantinya akan diinjeksikan ke dalam flow untuk diproses oleh switch node. Langkah 3 melibatkan konfigurasi pada switch node. Property switch diatur untuk memeriksa nilai payload (msg.payload) dan membaginya ke dua output berdasarkan kondisi: yang pertama jika payload > 28, yang kedua jika payload <= 28. "Stopping after first match" diaktifkan, sehingga setelah kondisi pertama terpenuhi, switch node tidak akan memproses kondisi lainnya. Langkah 4 adalah mendeploy flow. Hasilnya adalah ketika input 30 diinjeksikan, output pada debug node akan menampilkan nilai 30. Begitu pula ketika input 27 diinjeksikan, output pada debug node akan menampilkan nilai 27. Hal ini menunjukkan bahwa switch node secara efektif memisahkan dan mengarahkan pesan sesuai dengan kondisi yang telah diatur.<br>
 
 <p align="justify">Dengan demikian secara keseluruhan, percobaan ini mengilustrasikan penggunaan switch node untuk mengarahkan alur program berdasarkan nilai payload, memberikan fleksibilitas dalam pengolahan data dan pengambilan keputusan dalam alur program Node-RED.<br>
 
-### 4.4 Sub D JSON Parsing
+### 5.4 Sub D JSON Parsing
 
 
 Pembahasan:<br> 
@@ -97,7 +99,7 @@ Pembahasan:<br>
 
 <p align="justify">Dengan begitu secara keseluruhan, percobaan ini berhasil menunjukkan penggunaan JSON parsing dalam Node-RED. Input JSON berhasil diubah menjadi objek JavaScript dan nilai tertentu diambil dan dimanipulasi menggunakan fungsi node. Hal ini memperlihatkan kemampuan Node-RED untuk mengolah dan memanipulasi data dalam format JSON dengan mudah dan efektif.<br>
 
-### 4.5 Tugas
+### 5.5 Tugas
 
 
 Pembahasan:<br> 
