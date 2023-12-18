@@ -5,6 +5,8 @@
 <p align="justify">Praktikum ini bertujuan untuk memberikan pemahaman dasar pemrograman menggunakan Node-Red serta kemampuan untuk membuat aplikasi server sederhana. Node-RED adalah sebuah alat pemrograman berbasis grafis, memungkinkan pengguna menyatukan perangkat keras, API, dan layanan online dengan cara yang inovatif. Dengan editor berbasis browser, pengguna dapat dengan mudah menyusun alur program menggunakan berbagai node yang tersedia dalam palet, yang dapat dijalankan secara instan. Node-Red juga memiliki kemampuan untuk berfungsi sebagai backend server IoT dengan menggunakan bahasa pemrograman JavaScript. Percobaan ini mencakup beberapa sub-topik, seperti Basic Flow, Function Node, Switch Node, dan JSON Parsing, yang bertujuan untuk memperdalam pemahaman praktis terkait penggunaan Node-Red. Selanjutnya, pada praktikum melibatkan tugas untuk membuat arsitektur sistem IoT yang menggunakan semua fungsi Hands-On, dengan format data multi-input termasuk String, Boolean, Number, dan JSON. Setiap input hasilnya ditampilkan dalam Debug Node yang berbeda, memperlihatkan aplikasi praktis dari pemahaman dasar yang diperoleh melalui praktikum ini. Diharapkan bahwa hasil praktikum ini akan memberikan pemahaman mengenai pemrograman berbasis Node-Red dan penggunaan berbagai node dalam konteks pemrograman aplikasi server sederhana.
 
 ## 2. Alat dan Bahan
+**Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
+1) Perangkat terpasang Node-Red
 
 ## 3. Rangkaian
 ### 3.1 Rangkaian 1 (Sub A Basic Flow)
