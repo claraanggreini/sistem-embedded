@@ -24,36 +24,20 @@
 ### 3.5 Rangkaian 5 (Untuk Tugas)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/32d40ca7-5d4d-47e0-b3e8-916938b003e0" width="500">
 
-## 4. Source Code
+## 4. Source Code/Flow Chart
 ### 4.1. Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
 <img src="" width="500">
 
 ### 4.2. Source Code Transmisi Data Menggunakan Protokol HTTP
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
 <img src="" width="500">
 
-
 ### 4.3. Source Code Transmisi Data Menggunakan Protokol MQTT
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
 <img src="" width="500">
 
 ### 4.4. Source Code Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
 <img src="" width="500">
 
 ### 4.5. Source Code Tugas
-
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
-
 <img src="" width="500">
 
 ## 5. Hasil dan Pembahasan
