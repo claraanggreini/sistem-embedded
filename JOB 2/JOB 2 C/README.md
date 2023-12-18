@@ -1,5 +1,3 @@
-
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/53813cbd-ff4b-4ecb-a5b1-efc621706707
 # 1. EP32 | C. Mengakses Sensor RFID (SPI Communication)
 
 ## 1. Keterangan Singkat (Abstrak)
