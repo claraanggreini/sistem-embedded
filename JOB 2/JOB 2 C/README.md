@@ -14,13 +14,13 @@
 ## 3. Source Code
 ### 3.1. Source Code Langkah 1-4
 
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/JOB2_C_langkkah_1-4/JOB2_C_langkkah_1-4.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/366e3b94-1fae-4f4c-8559-1c62fa9f7e5f" width="500">
 
 ### 3.2. Source Code Langkah 5-6
 
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/JOB2_C_langkah_5-6/JOB2_C_langkah_5-6.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/7c9dc9f1-a061-4b7f-b5c6-f08b79305ff5" width="500">
 
