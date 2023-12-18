@@ -7,7 +7,8 @@ Percobaan ini bertujuan untuk memahami cara kerja protokol komunikasi yang terda
 ## 2. Rangkaian
 ### Rangkaian 1 (Untuk langkah 1 hingga 8)
 <img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
-### Rangkaian 2 (Umtuk langkah 9)
+
+### Rangkaian 2 (Untuk langkah 9)
 <img src="https://github.com/sabrinavirry/Sistem-Embedded/assets/151721571/a175edaa-7eb8-41b2-aad1-dbb8a9c13f3f" width="500">
 
 ## 3. Source Code
