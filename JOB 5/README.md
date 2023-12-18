@@ -57,7 +57,7 @@ Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 ## 5. Hasil dan Pembahasan
 
 ### 5.1 Sub A Basic Flow
-
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/b8d29d74-b097-4fa8-9de3-23758e08f7f0
 
 Pembahasan:<br> 
 <p align="justify">Pada percobaan Basic Flow ini ada beberapa hal penting:<br>
