@@ -87,6 +87,7 @@ Pembahasan:<br>
 <p align="justify">Secara keseluruhan, percobaan ini menunjukkan kemampuan Node-RED dalam mengolah pesan dan memisahkannya berdasarkan kondisi tertentu menggunakan fungsi node. Ini memberikan fleksibilitas dalam pengaturan alur program untuk kebutuhan khusus dan meningkatkan fungsionalitas sistem secara modular.<br>
 
 ### 5.3 Sub C Switch Node
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/4b29b7f4-04e2-4334-b256-e92d20cebfc9
 
 Pembahasan:<br> 
 <p align="justify">Pada praktikum ini melibatkan Switch Node. Ada beberapa langkh dalam hal ini. Langkah 1 melibatkan pembuatan flow dengan dua input (30 dan 27) yang terhubung ke switch node, dan switch node terhubung ke dua output. Input nodes berisi angka 30 dan 27, sementara switch node memproses pesan sesuai dengan kondisi yang diatur, mengarahkan pesan ke salah satu output berdasarkan nilai payload. Pada langkah 2 melibatkan konfigurasi pada Inject Nodes. Inject Node 1 diatur dengan payload 28, sedangkan Inject Node 2 diatur dengan payload 27. Payload ini nantinya akan diinjeksikan ke dalam flow untuk diproses oleh switch node. Langkah 3 melibatkan konfigurasi pada switch node. Property switch diatur untuk memeriksa nilai payload (msg.payload) dan membaginya ke dua output berdasarkan kondisi: yang pertama jika payload > 28, yang kedua jika payload <= 28. "Stopping after first match" diaktifkan, sehingga setelah kondisi pertama terpenuhi, switch node tidak akan memproses kondisi lainnya. Langkah 4 adalah mendeploy flow. Hasilnya adalah ketika input 30 diinjeksikan, output pada debug node akan menampilkan nilai 30. Begitu pula ketika input 27 diinjeksikan, output pada debug node akan menampilkan nilai 27. Hal ini menunjukkan bahwa switch node secara efektif memisahkan dan mengarahkan pesan sesuai dengan kondisi yang telah diatur.<br>
@@ -94,7 +95,7 @@ Pembahasan:<br>
 <p align="justify">Dengan demikian secara keseluruhan, percobaan ini mengilustrasikan penggunaan switch node untuk mengarahkan alur program berdasarkan nilai payload, memberikan fleksibilitas dalam pengolahan data dan pengambilan keputusan dalam alur program Node-RED.<br>
 
 ### 5.4 Sub D JSON Parsing
-
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/541ec6d2-8a3f-4309-b124-f0244422b2d3
 
 Pembahasan:<br> 
 <p align="justify">Pada praktikum ini melibatkan JSON Parsing. Ada beberapa langkh dalam hal ini. Langkah 1 melibatkan pembuatan flow dengan input node (name=V1) yang terhubung ke node JSON, node JSON terhubung ke node fungsi, dan node fungsi terhubung ke output node (msg.payload). Ini menciptakan alur data yang melibatkan parsing JSON. Langkah 2 melibatkan konfigurasi pada Inject Node, JSON Parser Node, dan Function Node. Pada Inject Node, pesan dikonfigurasi dengan payload {temp:27, humidity:50} dan topik "sensor". Pada JSON Parser Node, pengaturan dilakukan dengan mengubah pesan menjadi objek JavaScript dan mengatur propertinya pada msg.payload. Pada Function Node, dilakukan pengaturan variabel obj untuk menyimpan nilai payload, dan kemudian nilai msg.payload diubah menjadi obj.temperature, lalu pesan dikembalikan. Dan pada langkah 3 adalah mendeploy flow. Hasilnya adalah ketika input diinjeksikan, nilai 27 dari properti "temperature" pada objek JSON akan diambil, diproses oleh fungsi, dan hasilnya akan ditampilkan pada debug node.<br>
@@ -102,7 +103,7 @@ Pembahasan:<br>
 <p align="justify">Dengan begitu secara keseluruhan, percobaan ini berhasil menunjukkan penggunaan JSON parsing dalam Node-RED. Input JSON berhasil diubah menjadi objek JavaScript dan nilai tertentu diambil dan dimanipulasi menggunakan fungsi node. Hal ini memperlihatkan kemampuan Node-RED untuk mengolah dan memanipulasi data dalam format JSON dengan mudah dan efektif.<br>
 
 ### 5.5 Tugas
-
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/31fc56a3-a433-4d65-b56e-ade00e47b48d
 
 Pembahasan:<br> 
 <p align="justify">Arsitektur sistem IoT yang dibuat menggunakan Node-RED mencakup empat input (string, boolean, number, dan JSON) yang terhubung ke switch. Switch ini kemudian terhubung ke tiga output dan satu node JSON. JSON node tersebut menghubungkan tiga fungsi (fungtion 4, fungtion 5, dan fungtion 6), dan setiap fungsi terhubung ke satu output. Pada konfigurasi input, setiap input memiliki pengaturan khusus sesuai dengan format data yang diinginkan (string, boolean, number, dan JSON). Setelah melewati switch, data kemudian diarahkan ke fungsi-fungsi yang spesifik sesuai dengan payload yang ada pada masing-masing input. Fungsi-fungsi (fungtion 4, fungtion 5, dan fungtion 6) dirancang untuk mengambil nilai tertentu dari objek JSON yang diterima. Fungtion 4 mengambil nilai suhu (temp), fungtion 5 mengambil nilai kelembaban (humidity), dan fungtion 6 mengambil nilai pH dari objek JSON.Hasil dari percobaan ini mengindikasikan bahwa sistem bekerja sesuai yang diinginkan:<br>
