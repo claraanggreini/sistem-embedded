@@ -1,8 +1,8 @@
-# 1. EP32 | A. Capacitive Touch Sensor
+# 1. EP32 | B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
 ## 1. Keterangan Singkat (Abstrak)
 
-Dalam percobaan ini program dibuat untuk dapat memahami bagaimana cara kerja protokol komunikasi yang terdapat pada ESP32 seperti UART, 12C, OneWire dan SPI dan bagaimana cara memanfaatkan tranducer sensor dan actuator untuk perangkat IoT.
+Percobaan ini bertujuan untuk memahami cara kerja protokol komunikasi menggunakan sensor DHT 11 yang terdiri dari dua bagian terpisah, dengan setiap bagian bertanggung jawab untuk fungsi tertentu. Bagian pertama menekankan penggunaan ESP32 dan sensor sentuh yang terhubung ke pin GPIO tertentu. Selain itu, juga memanfaatkan variabel isTouched untuk menyimpan status apakah sensor disentuh sebelumnya. 
 
 ## 2. Rangkaian
 
