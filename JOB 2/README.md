@@ -7,7 +7,8 @@
 3. <p align="justify">12C (Inter Integrated Circuit): I2C adalah protokol komunikasi serial yang memungkinkan beberapa perangkat terhubung ke dalam satu bus. Protokol ini cocok untuk aplikasi yang membutuhkan komunikasi antara beberapa perangkat dengan menggunakan hanya dua kabel. Bus yang digunakan untuk komunikasi antara mikrokontroler dan device lainnya seperi sensor, dll.</p>
 
 Terdapat 3 percobaan dalam jobsheet ini yaitu :
-1. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%202/a.%20EP32%20Capacitive%20Touch%20Sensor">EP32 Capacitive Touch Sensor
+
+1. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20A#readme">EP32 Capacitive Touch Sensor
 2. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%202/b.%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20%20BUS)">Mengakses Sensor DHT 11 (Single Wire  BUS)
 3. <a href="https://github.com/brianrahma/brian-system-embedded/tree/master/jobsheet%202/c.%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)">Mengakses Sensor RFID (SPI Communication)
 
