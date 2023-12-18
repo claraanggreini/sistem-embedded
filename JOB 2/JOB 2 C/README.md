@@ -55,13 +55,14 @@ https://github.com/claraanggreini/sistem-embedded/assets/150989360/263b3611-a94e
 
 Pembahasan:<br> 
 <p align="justify">Program ini adalah implementasi kontrol akses berbasis RFID pada ESP32 menggunakan modul MFRC522 dan servo motor.<br>
+  
   1. Inisialisasi Perangkat dan Variabel:<br>
       1.	Program menggunakan pustaka SPI, MFRC522, dan ESP32Servo.
       2.	Dua pin (SS_PIN dan RST_PIN) ditentukan untuk komunikasi SPI dengan modul MFRC522.
       3.	Sebuah objek `rfid` dari kelas MFRC522 dibuat untuk berkomunikasi dengan modul RFID.
       4.	Sebuah array byte `keyTagUID` digunakan untuk menyimpan UID (Unique Identifier) dari            kartu RFID yang diizinkan.
       5.	Sebuah objek `myservo` dari kelas Servo digunakan untuk mengendalikan servo motor.
-      6.	Dua pin (greenLEDPin dan redLEDPin) ditentukan untuk mengendalikan LED hijau dan merah          sebagai indikator akses.
+      6.	Dua pin (greenLEDPin dan redLEDPin) ditentukan untuk mengendalikan LED hijau dan   merah sebagai indikator akses.
 
   2. Setup:<br>
       1.	Fungsi setup() berisi inisialisasi serial communication, inisialisasi bus SPI,                inisialisasi modul MFRC522, dan mengatur pin untuk servo   dan LED.
