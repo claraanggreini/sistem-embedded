@@ -1,4 +1,4 @@
-# 1. EP32 | B. Mengakses Sensor DHT 11 (Single Wire / BUS)
+# 2. EP32 | B. Mengakses Sensor DHT 11 (Single Wire / BUS)
 
 ## 1. Keterangan Singkat (Abstrak)
 
