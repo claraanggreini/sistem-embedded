@@ -14,13 +14,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 ## 3. Hasil dan Pembahasan
 
 ### 3.1 Video 
-https://github.com/claraanggreini/sistem-embedded/assets/150989360/3ab6735d-a1a3-42bc-8573-f29020c89050
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/287c7157-47da-42d6-b696-88fb71558a41
 
 Pembahasan:<br> 
-<p align="justify">Program di atas adalah kode untuk menguji sensor sentuhan pada modul ESP32. Modul ini memiliki pin sentuhan yang dapat mendeteksi sentuhan fisik. Kode ini menggunakan pin sentuhan T0 (Touch0), yang sesuai dengan GPIO 4 pada ESP32.<br>
-  
-  1. void setup(): Fungsi ini dijalankan sekali saat mikrokontroler pertama kali dinyalakan. Pada kode ini, Serial diinisialisasi dengan kecepatan 115200 bps, kemudian terdapat delay 1000 milidetik (1 detik) untuk memberikan waktu bagi pengguna membuka serial monitor. Terakhir, pesan "ESP32 Touch Test" dicetak ke serial monitor.<br>
-  2. void loop(): Fungsi ini berjalan terus-menerus setelah fungsi setup selesai dijalankan. Pada kode ini, nilai dari pin sentuhan (Touch0) yang terhubung ke GPIO 4 dibaca menggunakan fungsi touchRead(4). Nilai yang dibaca kemudian dicetak ke serial monitor. Terdapat juga delay 1000 milidetik (1 detik) sebelum membaca nilai lagi.<br>
-
-<p align="justify">Dengan menjalankan program ini dan membuka serial monitor, maka dapat melihat nilai yang dibaca dari pin sentuhan. Nilai ini akan bervariasi tergantung pada seberapa kuat atau lemah sentuhan yang diberikan pada pin sentuhan tersebut, semakin kuat sentuhannya maka nilainya semakin kecil, begitu pula sebaliknya. Program ini berguna untuk menguji fungsi sensor sentuhan pada modul ESP32 dan dapat membantu dalam pengembangan proyek-proyek yang melibatkan interaksi sentuhan.
-
+<p align="justify">Program di atas menggunakan ESP32 dan pustaka WiFi untuk mendapatkan alamat MAC perangkat dan mencetaknya ke Serial Monitor. Pada tahap setup(), komunikasi serial diinisiasi dengan kecepatan baud 115200, mode WiFi diatur sebagai mode Station (penerima), dan kemudian alamat MAC perangkat diambil menggunakan fungsi WiFi.macAddress() dan dicetak ke Serial Monitor. Hasilnya, pada saat program dijalankan, Serial Monitor akan menampilkan alamat MAC ESP32, yakni dalam hal ini adalah "C8:F0:9E:F5:2E:6C". Program ini berguna untuk memantau alamat MAC yang unik untuk identifikasi perangkat ESP32 tertentu, memfasilitasi manajemen jaringan dan debugging.<br>
