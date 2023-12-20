@@ -1,26 +1,30 @@
-# Jobsheet 2 - PROTOKOL KOMUNIKASI DAN SENSOR 
+# JOBSHEET 2.1 - JARINGAN SENSOR NIRKABEL MENGGUNAKAN ESP-NOW
 
-<p align="justify">ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI. Terdapat point penting dalam percobaan kali ini, yaitu :
+## Abstrak
+<p align="justify">ESP-NOW adalah protokol komunikasi tanpa Wi-Fi yang dikembangkan oleh Espressif untuk ESP32. Protokol ini memungkinkan perangkat saling berkomunikasi pada frekuensi 2.4GHz 
+dengan konfigurasi awal menggunakan alamat MAC. Setelah terpasang, jaringan peer-to-peer terbentuk, memungkinkan koneksi tetap ada tanpa perlu melakukan handshaking ulang. 
+Jika salah satu perangkat ESP32 mati atau diatur ulang, koneksi otomatis dipulihkan saat restart ke perangkat pasangannya yang telah ditentukan alamatnya.</p>
 
-1. <p align="justify">UART (Universal Asynchronous Receiver Transmitter): UART adalah protokol dalam pengiriman data serial antara device satu dengan lainnya. Dalam pengiriman data, clock antara pengirim dan penerima harus sama karena paket data dikirim tiap bit mengandalkan clock tersebut.</p>
-2. <p align="justify">SPI (Serial Peripheral Interface): SPI adalah protokol komunikasi serial yang memungkinkan transfer data dengan kecepatan tinggi antara mikrokontroler dan perangkat lain. Protokol ini cocok untuk aplikasi yang membutuhkan transfer data dengan kecepatan tinggi, seperti pada layar LCD atau modul memori. SPI merupakan satu mode komunikasi serial synchrounous kecepatan tinggi yang dimiliki oleh Atmega 328. Komunikasi SPI membutuhkan 3 jalur yaitu MOSI, MISO, dan SCK.</p>
-3. <p align="justify">12C (Inter Integrated Circuit): I2C adalah protokol komunikasi serial yang memungkinkan beberapa perangkat terhubung ke dalam satu bus. Protokol ini cocok untuk aplikasi yang membutuhkan komunikasi antara beberapa perangkat dengan menggunakan hanya dua kabel. Bus yang digunakan untuk komunikasi antara mikrokontroler dan device lainnya seperi sensor, dll.</p>
+<p align="justify">Jobsheet ini bertujuan untuk memahami konsep topologi jaringan sensor nirkabel berbasis ESP-NOW, melakukan konfigurasi berbagai topologi ESP-NOW, dan menganalisis dan menentukan topologi ESP-NOW,sesuai dengan
+studi kasus proyek.</p>
 
-Terdapat 3 percobaan dalam jobsheet ini yaitu :
-
-1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/README.md">EP32 Capacitive Touch Sensor
-2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20B#readme">Mengakses Sensor DHT 11 (Single Wire  BUS)
-3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/README.md">Mengakses Sensor RFID (SPI Communication)
+**Sub-job** pada jobsheet ini, antara lain:
+1. Memperoleh MAC Address ESP32 Receiver
+2. ESP-NOW One-Way Point-to-Point Communication
+3. One-Way, One-to-Many Communication
+4. One-Way, Many-to-One Communication
+5. Two-Way Communication
 
 ## Alat dan Bahan
 **Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
 1) ESP32
 2) Breadboard
 3) Kabel jumper
-4) Sensor DHT11, RFID
-5) LED (5) dan Push Button (3)
-6) Servo
-7) Resistor 330,1K, 10K Ohm (@ 3)
+4) Resistor 10K Ohm
+5) Sensor DHT11
+
+> [!NOTE]  
+> *Buka folder-folder subjob untuk melihat laporan percobaan*
 
 > [!NOTE]  
 > *Buka folder subjob percobaan untuk melihat laporan*
