@@ -21,7 +21,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 ## 4. Hasil dan Pembahasan
 
-### 4.1. Percobaan
+### 4.1. Percobaan 2 ESP
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/26f85a36-4669-4e8d-ae89-50c3972b773b
 
 Pembahasan:<br> 
@@ -29,8 +29,25 @@ Pembahasan:<br>
 
 <p align="justify">Dengan demikian, pada Serial Monitor sender, dihasilkan pesan "Data berhasil terkirim" jika pengiriman berhasil, sedangkan pada Serial Monitor receiver, nilai-nilai dari struktur `myData` akan dicetak dengan karakter "INI ADALAH CHAR" yang diatur pada kode sender. Keberhasilan komunikasi antara sender dan receiver dapat dipastikan dengan melihat output yang sesuai di kedua Serial Monitor.<br>
 
-### 4.1. Tugas
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c5099319-dfad-43c8-b23a-319cb390ff73" width="500">
+### 4.2. Percobaan mengirimkan data dummy dengan ukuran yang terbaca oleh receiver 250 byte
+<p align="justify">Diperlukan untuk mengubah nilai char a[] menjadi 236
+
+    typedef struct struct_message {
+     char a[236];
+     int b;
+     float c;
+     bool d;
+    }
+
+Hasilnya adalah sebagai berikut:<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/98cd7831-6042-4f4b-9e2d-a420032925a9" width="500">
 
 Pembahasan:<br> 
 <p align="justify">.<br>
+
+### 4.2. Percobaan Tugas
+Hasilnya adalah sebagai berikut:<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8aa3de74-c4be-473b-bfff-eac71c13a706" width="500">
+
+Pembahasan:<br> 
+<p align="justify">...<br>
