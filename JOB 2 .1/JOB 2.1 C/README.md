@@ -1,4 +1,4 @@
-# A. Memperoleh MAC Address ESP32 Receiver
+# C. One-Way, One-to-Many Communication 
 
 ## 1. Keterangan Singkat (Abstrak)
 
