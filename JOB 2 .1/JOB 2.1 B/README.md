@@ -5,11 +5,15 @@
 <p align="justify">
 
 ## 2. Source Code
-### 2.1. Source Code
-
+### 2.1. Source Code Percobaan
 Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_2/JOB2_A_langkah_2.ino"> disini </a> atau dibawah ini
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/dfb04a79-e597-48cb-b34e-d996d0b5e63c" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/3312d7bb-e7e1-406a-944d-4fd41252a0f3" width="500">
+
+### 2.1. Source Code Tugas
+Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+
+<img src="" width="500">
 
 ## 3. Hasil dan Pembahasan
 
