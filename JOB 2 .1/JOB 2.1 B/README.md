@@ -50,4 +50,9 @@ Hasilnya adalah sebagai berikut:<br>
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8aa3de74-c4be-473b-bfff-eac71c13a706" width="500">
 
 Pembahasan:<br> 
-<p align="justify">...<br>
+<p align="justify">Dari hasil tabel yang disajikan, dapat disimpulkan bahwa proses pengiriman data antara ESP sender dan receiver berjalan dengan baik dalam segala kondisi, dengan persentase packet loss sebesar 0% dan keberhasilan pengiriman sebesar 100%. Hal ini menunjukkan bahwa sistem komunikasi menggunakan protokol ESP-NOW dapat diandalkan dan efisien dalam mengirimkan data antara kedua perangkat.
+
+<p align="justify">Namun, diperhatikan bahwa meskipun keberhasilan pengiriman mencapai 100%, terdapat catatan bahwa semakin jauh jarak antara ESP sender dan receiver akan mengakibatkan peningkatan delay pada penerima. Peningkatan delay ini dapat disebabkan oleh faktor-faktor seperti kelemahan sinyal atau interferensi yang dapat terjadi seiring dengan peningkatan jarak komunikasi.<br>
+    
+>*Note: Dokumentasi percobaan dapat dilihat pada folder "dokumentasi"*
+
