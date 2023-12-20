@@ -5,8 +5,7 @@
 <p align="justify">
 
 ## 2. Rangkaian
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/16a434f2-adc4-4dcd-860d-d47b2940a058
-" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/16a434f2-adc4-4dcd-860d-d47b2940a058" width="500">
 
 
 ## 3. Source Code
