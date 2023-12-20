@@ -54,5 +54,4 @@ Pembahasan:<br>
 
 <p align="justify">Namun, diperhatikan bahwa meskipun keberhasilan pengiriman mencapai 100%, terdapat catatan bahwa semakin jauh jarak antara ESP sender dan receiver akan mengakibatkan peningkatan delay pada penerima. Peningkatan delay ini dapat disebabkan oleh faktor-faktor seperti kelemahan sinyal atau interferensi yang dapat terjadi seiring dengan peningkatan jarak komunikasi.<br>
     
->*Note: Dokumentasi percobaan dapat dilihat pada folder "dokumentasi"*
-
+>*Note: Dokumentasi percobaan dapat dilihat pada folder "<a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202%20.1/JOB%202.1%20B/job%202.1%20B%20dokumentasi%20tugas"> job 2.1 B dokumentasi tugas </a>"*
