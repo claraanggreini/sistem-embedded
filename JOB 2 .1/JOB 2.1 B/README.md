@@ -36,8 +36,7 @@ Pembahasan:<br>
 <p align="justify">.<br>
 
 ### 4.1. Tugas
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/119d32c8-e625-47f0-a558-e9512901a93c
-" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c5099319-dfad-43c8-b23a-319cb390ff73" width="500">
 
 Pembahasan:<br> 
 <p align="justify">.<br>
