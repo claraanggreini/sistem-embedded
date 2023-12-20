@@ -39,11 +39,11 @@ Pembahasan:<br>
      bool d;
     }
 
-Hasilnya adalah sebagai berikut:<br>
+Hasilnya pada receiver adalah sebagai berikut:<br>
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/98cd7831-6042-4f4b-9e2d-a420032925a9" width="500">
 
 Pembahasan:<br> 
-<p align="justify">.<br>
+<p align="justify">Dengan mengubah ukuran array karakter `a` dalam struktur data `struct_message` menjadi 236 byte, total ukuran struktur tersebut menjadi 245 byte. Ketika data dikirim dari sender ke receiver menggunakan protokol ESP-NOW, receiver akan menerima total 248 byte data, termasuk data dari struktur `struct_message` yang baru dan beberapa byte tambahan yang mungkin terkait dengan protokol komunikasi, seperti overhead atau informasi tambahan yang dibutuhkan untuk proses transfer. Oleh karena itu, output pada Serial Monitor receiver akan menampilkan pesan "Bytes received: 248", mencerminkan ukuran total data yang diterima, yang terdiri dari struktur `struct_message` yang baru dan tambahan byte terkait dengan protokol ESP-NOW.<br>
 
 ### 4.2. Percobaan Tugas
 Hasilnya adalah sebagai berikut:<br>
