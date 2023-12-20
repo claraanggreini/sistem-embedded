@@ -9,11 +9,11 @@ Jika salah satu perangkat ESP32 mati atau diatur ulang, koneksi otomatis dipulih
 studi kasus proyek.</p>
 
 **Sub-job** pada jobsheet ini, antara lain:
-1. Memperoleh MAC Address ESP32 Receiver
-2. ESP-NOW One-Way Point-to-Point Communication
-3. One-Way, One-to-Many Communication
-4. One-Way, Many-to-One Communication
-5. Two-Way Communication
+1. <a href="">Memperoleh MAC Address ESP32 Receiver
+2. <a href="">ESP-NOW One-Way Point-to-Point Communication
+3. <a href="">One-Way, One-to-Many Communication
+4. <a href="">One-Way, Many-to-One Communication
+5. <a href="">Two-Way Communication
 
 ## Alat dan Bahan
 **Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
