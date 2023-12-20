@@ -7,7 +7,7 @@
 ## 2. Source Code
 ### 2.1. Source Code
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/JOB2_A_langkah_2/JOB2_A_langkah_2.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202%20.1/JOB%202.1%20A/2.1_A/2.1_A.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/dfb04a79-e597-48cb-b34e-d996d0b5e63c" width="500">
 
