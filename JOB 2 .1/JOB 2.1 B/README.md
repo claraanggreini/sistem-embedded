@@ -24,9 +24,10 @@ Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 ## 3. Hasil dan Pembahasan
 
-### 3.1 Video 
-### 2.1. Video Percobaan
+### 3.1. Video Percobaan
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/26f85a36-4669-4e8d-ae89-50c3972b773b
 
 Pembahasan:<br> 
 <p align="justify">.<br>
+
+### 3.1. Video Tugas
