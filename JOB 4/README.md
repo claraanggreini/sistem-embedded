@@ -4,12 +4,19 @@
 ## Abstrak
 <p align="justify">HTTP) Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT. </p>
 
+<<<<<<< HEAD
 <p align="justify">Pada jobsheet ini bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk transmisi data (akuisisi data dan kendali) pada Platform IoT Node-Red</p>
 
 Terdapat 5 percobaan dalam jobsheet ini yaitu :
 1. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%204/JOB%204A#readme">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</a>
 2. **Transmisi Data Menggunakan Protokol HTTP**
 3. **Transmisi Data Menggunakan Protokol MQTT**
+=======
+Terdapat 5 percobaan dalam jobsheet ini yaitu :
+1. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%204/JOB%204A#readme">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</a>
+2. **Transmisi Data Menggunakan Protokol HTTP**
+3. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%204/JOB%204C">Transmisi Data Menggunakan Protokol MQTT</a>
+>>>>>>> e571768f98a75a9d1134b5ba427e95a81f4a4533
 4. **Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT**
 5. **Pertanyaan dan Tugas**
 
@@ -44,5 +51,9 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a1d84a90-e48e-4361-9f82-09f4a91edd9d" width="500">
 
 Pembahasan:<br> 
+<<<<<<< HEAD
 <p align="justify">EPS32 akan menampilkan daftar SSID Wi-Fi yang tersedia pada serial monitor. Program mencoba terhubung ke jaringan WiFi yang telah disimpan dalam EEPROM (non-volatile memory). Jika koneksi WiFi gagal atau tombol fisik pada pin D15 (GPIO15) ditekan, program akan memulai konfigurasi sebagai titik akses (Access Point) untuk mengonfigurasi ulang WiFi. Output dari percobaan ini yaitu infinix GT10 succeessfully.<br>
+=======
+<p align="justify">Langkah pertama dari percobaan ini adalah mengatur SSID dan password Wi-Fi pada ESP32 melalui Web Server. Script Arduino IDE yang disediakan berfungsi untuk membaca dan menyimpan SSID serta password pada EEPROM, selain itu juga menangani koneksi Wi-Fi. Setelah mengunggah script, ESP32 akan mencoba terhubung ke jaringan Wi-Fi yang telah disimpan sebelumnya. Jika tidak berhasil, ESP32 akan menjadi HotSpot dan memungkinkan pengguna untuk mengatur ulang SSID dan password melalui Web Server. Pada tahap kedua, setelah mengunggah script, perlu membuka serial monitor Arduino IDE. Jika ESP32 belum terhubung dengan jaringan, ESP32 akan menampilkan daftar SSID Wi-Fi yang tersedia. Kemudian, pengguna dapat mengakses alamat IP yang ditampilkan di serial monitor pada browser dan mengisi formulir yang disediakan dengan SSID dan password yang sesuai. Hasil dari percobaan ini menunjukkan bahwa ESP32 berhasil terhubung ke jaringan Wi-Fi dengan SSID "infinix GT10" secara sukses.<br>
+>>>>>>> e571768f98a75a9d1134b5ba427e95a81f4a4533
 
