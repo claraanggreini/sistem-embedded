@@ -4,8 +4,13 @@
 
 <p align="justify">
 
-## 2. Source Code
-### 2.1. Source Code Percobaan
+## 2. Rangkaian
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/16a434f2-adc4-4dcd-860d-d47b2940a058
+" width="500">
+
+
+## 3. Source Code
+### 3.1. Source Code Percobaan
 1. Sender
 Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202%20.1/JOB%202.1%20B/2.1_B_percobaan/2.1_B_percobaan.ino"> disini </a> atau dibawah ini
 
@@ -17,14 +22,14 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9c725f14-2cef-4b1c-bc55-e9ac4d7318b8" width="500">
 
 
-### 2.1. Source Code Tugas
+### 3.1. Source Code Tugas
 Program dapat dilihat <a href=""> disini </a> atau dibawah ini
 
 <img src="" width="500">
 
-## 3. Hasil dan Pembahasan
+## 4. Hasil dan Pembahasan
 
-### 3.1. Video Percobaan
+### 4.1. Video Percobaan
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/26f85a36-4669-4e8d-ae89-50c3972b773b
 
 Pembahasan:<br> 
