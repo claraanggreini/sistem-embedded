@@ -1,4 +1,4 @@
-# A. Memperoleh MAC Address ESP32 Receiver
+# B. SP-NOW One-Way Point-to-Point Communication
 
 ## 1. Keterangan Singkat (Abstrak)
 
