@@ -26,5 +26,3 @@ studi kasus proyek.</p>
 > [!NOTE]  
 > *Buka folder-folder subjob untuk melihat laporan percobaan*
 
-> [!NOTE]  
-> *Buka folder subjob percobaan untuk melihat laporan*
