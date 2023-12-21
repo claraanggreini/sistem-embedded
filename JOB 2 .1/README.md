@@ -11,7 +11,7 @@ studi kasus proyek.</p>
 **Sub-job** pada jobsheet ini, antara lain:
 1. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202%20.1/JOB%202.1%20A#readme">Memperoleh MAC Address ESP32 Receiver
 2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202%20.1/JOB%202.1%20B#readme">ESP-NOW One-Way Point-to-Point Communication
-3. <a href="">One-Way, One-to-Many Communication
+3. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202%20.1/JOB%202.1%20C#readme">One-Way, One-to-Many Communication
 4. <a href="">One-Way, Many-to-One Communication
 5. <a href="">Two-Way Communication
 
