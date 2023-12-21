@@ -9,11 +9,6 @@
 Terdapat 5 percobaan dalam jobsheet ini yaitu :
 1. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%204/JOB%204A#readme">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</a>
 2. **Transmisi Data Menggunakan Protokol HTTP**
-3. **Transmisi Data Menggunakan Protokol MQTT**
-=======
-Terdapat 5 percobaan dalam jobsheet ini yaitu :
-1. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%204/JOB%204A#readme">Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</a>
-2. **Transmisi Data Menggunakan Protokol HTTP**
 3. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%204/JOB%204C">Transmisi Data Menggunakan Protokol MQTT</a>
 4. **Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT**
 5. **Pertanyaan dan Tugas**
