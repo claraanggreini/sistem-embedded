@@ -22,3 +22,6 @@ Alat dan bahan yang digunakan dalam jobsheet ini, antara lain:
   4. Sensor DHT 11
   5. LED (5) 
   7. Resistor 330, 1K, 10K Ohm (3)
+
+> [!NOTE]  
+> *Buka folder subjob percobaan untuk melihat laporan percobaan*
