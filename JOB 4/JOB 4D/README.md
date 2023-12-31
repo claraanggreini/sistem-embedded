@@ -37,6 +37,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/cb38ec1a-b956-439c-9660-94d5b9f1960f" width="500"><br>
 
 4. Video Hasil
+   
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/3e14f20f-2a1e-44de-a0c9-0fb72b0cd66e
 
 Pembahasan:<br> 
@@ -44,7 +45,6 @@ Pembahasan:<br>
 
 ### 5.1 Hasil dan Pembahasan Kontrol Nyala LED Melalui Dashboard Adafruit
 1. Serial monitor<br>
-
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9c04edd8-2632-48d6-b5b4-991a9e13ca95" width="500"><br>
 
 2. Video Hasil
