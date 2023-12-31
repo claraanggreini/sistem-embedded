@@ -44,9 +44,11 @@ Pembahasan:<br>
 
 ### 5.1 Hasil dan Pembahasan Kontrol Nyala LED Melalui Dashboard Adafruit
 1. Serial monitor<br>
+
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9c04edd8-2632-48d6-b5b4-991a9e13ca95" width="500"><br>
 
 2. Video Hasil
+
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/ac70b4dc-ed03-4916-947d-fdbfd2b91548
 
 Pembahasan:<br> 
