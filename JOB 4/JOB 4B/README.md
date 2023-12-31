@@ -14,13 +14,13 @@
 ## 3. Source Code
 ### 3.1. Source Code Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
 
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204B/job_4b.ino"> disini </a> atau dibawah ini
 
-<img src="(https://github.com/claraanggreini/sistem-embedded/assets/150989360/1084b9dd-6d50-4745-af5d-6ed44ee9c3f3" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/1084b9dd-6d50-4745-af5d-6ed44ee9c3f3" width="500">
 
 ### 3.2. Source Code Langkah 7-9 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST)
 
-Program dapat dilihat <a href=""> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204B/job_4b-2.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a692464a-a1ed-4075-b28b-768bb465777d" width="500">
 
