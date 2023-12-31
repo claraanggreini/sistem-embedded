@@ -1,4 +1,4 @@
-# 1. EP32 | D.  Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
+# 4. EP32 | D.  Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 ## 1. Keterangan Singkat (Abstrak)
 
 <p align="justify">lalala
