@@ -1,27 +1,32 @@
+# 4. EP32 | C. Transmisi Data Menggunakan Protokol HTTP
 
-<<<<<<< HEAD
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT.
+<p align="justify">lalala
 
-## 2. Flow Chart
+## 2. Source Code
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204C/job_4C.ino"> disini </a> atau dibawah ini
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6ac11528-263c-4209-ac74-5e1cb9fc3509" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/2ef7ee38-6327-454b-baa2-5aa3b65516ca" width="700">
 
-## 3. Source Code
-### Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+## 3. Flow Program
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/868203dd-f135-4405-8f0e-f97fd8f660ec" width="500">
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204A/JOB4_A/JOB4_A.ino"> disini </a> atau dibawah ini
+## 4. Flow Chart
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/97c137aa-6da6-456d-96c6-b2bc1fea5b69" width="500">
+## 5. Hasil dan Pembahasan
+1. Serial monitor<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/11848a43-2cbe-442f-8201-411d9f85a527" width="500"><br>
 
+2. Debug pada Node Red<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9dd30260-95bc-4cab-8f5e-383b2d9a3e79" width="500"><br>
 
-## 4. Hasil dan Pembahasan
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/4d627f1c-bdcd-420a-9a5d-1b86a91cbb15" width="500">
+3. Dashboard Node-Red<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/85bcf148-1c89-4375-8847-8ff4a03e1d42" width="500"><br>
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a1d84a90-e48e-4361-9f82-09f4a91edd9d" width="500">
+4. Tabel<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/aeded00f-8096-41d6-a80b-de6347fe2f0d" width="500"><br>
 
 Pembahasan:<br> 
-<p align="justify">EPS32 akan menampilkan daftar SSID Wi-Fi yang tersedia pada serial monitor. Program mencoba terhubung ke jaringan WiFi yang telah disimpan dalam EEPROM (non-volatile memory). Jika koneksi WiFi gagal atau tombol fisik pada pin D15 (GPIO15) ditekan, program akan memulai konfigurasi sebagai titik akses (Access Point) untuk mengonfigurasi ulang WiFi. Output dari percobaan ini yaitu infinix GT10 succeessfully.<br>
-=======
->>>>>>> e571768f98a75a9d1134b5ba427e95a81f4a4533
+<p align="justify">

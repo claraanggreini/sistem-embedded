@@ -1,27 +1,61 @@
+# 4. EP32 | B. Transmisi Data Menggunakan Protokol HTTP
 
-<<<<<<< HEAD
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT.
+<p align="justify">lalala
 
-## 2. Flow Chart
+## 2. Source Code
+### 2.1. Source Code Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6ac11528-263c-4209-ac74-5e1cb9fc3509" width="500">
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204B/job_4b.ino"> disini </a> atau dibawah ini
 
-## 3. Source Code
-### Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/1084b9dd-6d50-4745-af5d-6ed44ee9c3f3" width="700">
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204A/JOB4_A/JOB4_A.ino"> disini </a> atau dibawah ini
+### 2.2. Source Code Langkah 7-9 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST)
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/97c137aa-6da6-456d-96c6-b2bc1fea5b69" width="500">
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204B/job_4b-2.ino"> disini </a> atau dibawah ini
 
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a692464a-a1ed-4075-b28b-768bb465777d" width="700">
 
-## 4. Hasil dan Pembahasan
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/4d627f1c-bdcd-420a-9a5d-1b86a91cbb15" width="500">
+## 3. Flow Program
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/868203dd-f135-4405-8f0e-f97fd8f660ec" width="500">
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a1d84a90-e48e-4361-9f82-09f4a91edd9d" width="500">
+## 4. Flow Chart
+### 4.1 Flow Chart Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
+
+### 4.2 Flow Chart Langkah 7-9 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST)
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8616c7bd-1c72-40bf-8b93-2ee3ceff0fbb" width="500">
+
+## 5. Hasil dan Pembahasan
+### 5.1 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get
+1. Serial monitor<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/7574a82b-7634-434e-93c5-8c59d19f2f03" width="500"><br>
+
+2. Debug pada Node Red<br>
+      <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c222603a-ca58-4b6b-bb8d-8825aba194d4" width="500"><br>
+
+3. Dashboard Node-Red<br>
+      <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c308f98a-f506-4921-96a5-e9b920c7c3d5" width="500"><br>
+
+4. Tabel<br>
+      <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/00b7cc7d-5732-4785-bfc7-98c086ec91f7" width="500"><br>
 
 Pembahasan:<br> 
-<p align="justify">EPS32 akan menampilkan daftar SSID Wi-Fi yang tersedia pada serial monitor. Program mencoba terhubung ke jaringan WiFi yang telah disimpan dalam EEPROM (non-volatile memory). Jika koneksi WiFi gagal atau tombol fisik pada pin D15 (GPIO15) ditekan, program akan memulai konfigurasi sebagai titik akses (Access Point) untuk mengonfigurasi ulang WiFi. Output dari percobaan ini yaitu infinix GT10 succeessfully.<br>
-=======
->>>>>>> e571768f98a75a9d1134b5ba427e95a81f4a4533
+<p align="justify">
+
+### 5.2 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST
+1. Serial monitor<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/3a2f9ec5-1bd4-4465-852f-8a6e5bfc1f32" width="500"><br>
+
+2. Debug pada Node Red<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/07ef68d8-8256-4308-9744-1f30c41a67e2" width="500"><br>
+
+3. Dashboard Node-Red<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6e510932-5eac-4544-b2c5-50d113a73a8b" width="500"><br>
+
+4. Tabel<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/156991a3-0440-4e18-a813-99c98c24910e" width="500"><br>
+
+Pembahasan:<br> 
+<p align="justify">

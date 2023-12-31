@@ -1,27 +1,55 @@
-
-<<<<<<< HEAD
+# 4. EP32 | D.  Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 ## 1. Keterangan Singkat (Abstrak)
+<p align="justify">lalala
 
-<p align="justify">Praktikum ini bertujuan untuk memahami dan menerapkan protokol HTTP dan MQTT dalam transmisi data pada Platform IoT Node-Red. Dengan fokus pada akuisisi data dan kendali, selain itu praktikum ini juga bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk memonitor dan mengendalikan perangkat IoT. Melibatkan konfigurasi perangkat IoT, dimana peran IoT sebagai lingkungan yang efisien untuk mengumpulkan, menyimpan, dan menampilkan data dari berbagai sumber. Praktikum menyoroti penggunaan HTTP sebagai protokol aplikasi yang melayani permintaan data dari pengguna dan manajemen website, sementara MQTT, sebagai protokol komunikasi M2M, memiliki overhead rendah dan cocok untuk transmisi data dari Node Sensor ke Server. Percobaan praktis mencakup langkah-langkah seperti pengaturan SSID dan password Wi-Fi ESP32, transmisi data dengan protokol HTTP dan MQTT, akuisisi data, dan kendali perangkat IoT. Selain itu, praktikum menantang untuk membuat Multi-Protocol Server (HTTP dan MQTT) pada Node-Red untuk aplikasi Smart-Home dengan dua node pada dashboard, satu untuk memantau suhu dan kelembapan, dan yang lainnya untuk mengendalikan lampu LED menggunakan protokol MQTT.
+## 2. Source Code
+### 2.1. Source Code Kontrol Nyala LED Melalui Dashboard Node-RED
 
-## 2. Flow Chart
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204D/job_4_D.ino"> disini </a> atau dibawah ini
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6ac11528-263c-4209-ac74-5e1cb9fc3509" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/025d97ff-1722-4803-be90-1557aa6f2511" width="700">
 
-## 3. Source Code
-### Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+### 2.2. Source Code Kontrol Nyala LED Melalui Dashboard Adafruit
 
-Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204A/JOB4_A/JOB4_A.ino"> disini </a> atau dibawah ini
+Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204D/job_4D-2.ino"> disini </a> atau dibawah ini
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/97c137aa-6da6-456d-96c6-b2bc1fea5b69" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9c365899-9dd0-40cf-8cf5-d31e1fd0d2ff" width="700">
 
+## 3. Flow Program
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/868203dd-f135-4405-8f0e-f97fd8f660ec" width="500">
 
-## 4. Hasil dan Pembahasan
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/4d627f1c-bdcd-420a-9a5d-1b86a91cbb15" width="500">
+## 4. Flow Chart
+### 4.1 Flow Chart Kontrol Nyala LED Melalui Dashboard Node-RED
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a1d84a90-e48e-4361-9f82-09f4a91edd9d" width="500">
+### 4.2 Flow Chart Kontrol Nyala LED Melalui Dashboard Adafruit
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8616c7bd-1c72-40bf-8b93-2ee3ceff0fbb" width="500">
+
+## 5. Hasil dan Pembahasan
+### 5.1 Hasil dan Pembahasan Kontrol Nyala LED Melalui Dashboard Node-RED
+1. Serial monitor<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/be3d333b-0f28-4d1e-98a0-70b1fb43ec8b" width="500"><br>
+
+2. Debug pada Node Red<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/f050925a-ab2f-4404-bb6b-7bd74c1e8e33" width="500"><br>
+
+3. Dashboard Node-Red<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/cb38ec1a-b956-439c-9660-94d5b9f1960f" width="500"><br>
+
+4. Video Hasil
+   
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/3e14f20f-2a1e-44de-a0c9-0fb72b0cd66e
 
 Pembahasan:<br> 
-<p align="justify">EPS32 akan menampilkan daftar SSID Wi-Fi yang tersedia pada serial monitor. Program mencoba terhubung ke jaringan WiFi yang telah disimpan dalam EEPROM (non-volatile memory). Jika koneksi WiFi gagal atau tombol fisik pada pin D15 (GPIO15) ditekan, program akan memulai konfigurasi sebagai titik akses (Access Point) untuk mengonfigurasi ulang WiFi. Output dari percobaan ini yaitu infinix GT10 succeessfully.<br>
-=======
->>>>>>> e571768f98a75a9d1134b5ba427e95a81f4a4533
+<p align="justify">
+
+### 5.1 Hasil dan Pembahasan Kontrol Nyala LED Melalui Dashboard Adafruit
+1. Serial monitor<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/9c04edd8-2632-48d6-b5b4-991a9e13ca95" width="500"><br>
+
+2. Video Hasil
+
+https://github.com/claraanggreini/sistem-embedded/assets/150989360/ac70b4dc-ed03-4916-947d-fdbfd2b91548
+
+Pembahasan:<br> 
+<p align="justify">
