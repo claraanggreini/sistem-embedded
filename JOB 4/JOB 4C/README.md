@@ -9,10 +9,13 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/2ef7ee38-6327-454b-baa2-5aa3b65516ca" width="700">
 
-## 3. Flow Chart
+## 3. Flow Program
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/868203dd-f135-4405-8f0e-f97fd8f660ec" width="500">
+
+## 4. Flow Chart
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
 
-## 4. Hasil dan Pembahasan
+## 5. Hasil dan Pembahasan
 1. Serial monitor<br>
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/11848a43-2cbe-442f-8201-411d9f85a527" width="500"><br>
 
