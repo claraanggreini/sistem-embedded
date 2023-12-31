@@ -17,7 +17,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a692464a-a1ed-4075-b28b-768bb465777d" width="700">
 
-## 3. Rangkaian
+## 3. Flow Chart
 ### 3.1 Flow Chart Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
 
@@ -26,17 +26,33 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 ## 4. Hasil dan Pembahasan
 ### 4.1 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get
-1. Serial monitor
-2. Debug pada Node Red
-3. Dashboard Node-Red
+1. Serial monitor<br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/7574a82b-7634-434e-93c5-8c59d19f2f03" width="500"><br>
+
+2. Debug pada Node Red<br>
+      <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c222603a-ca58-4b6b-bb8d-8825aba194d4" width="500"><br>
+
+3. Dashboard Node-Red<br>
+      <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/c308f98a-f506-4921-96a5-e9b920c7c3d5" width="500"><br>
+
+4. Tabel<br>
+      <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/00b7cc7d-5732-4785-bfc7-98c086ec91f7" width="500"><br>
 
 Pembahasan:<br> 
 <p align="justify">
 
 ### 4.1 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST
-1. Serial monitor
-2. Debug pada Node Red
-3. Dashboard Node-Red
+1. Serial monitor<br>
+<img src="" width="500"><br>
+
+2. Debug pada Node Red<br>
+      <img src="" width="500"><br>
+
+3. Dashboard Node-Red<br>
+      <img src="" width="500"><br>
+
+4. Tabel<br>
+      <img src="" width="500"><br>
 
 Pembahasan:<br> 
 <p align="justify">
