@@ -1,4 +1,4 @@
-# 1. EP32 | B. Transmisi Data Menggunakan Protokol HTTP
+# 4. EP32 | B. Transmisi Data Menggunakan Protokol HTTP
 
 ## 1. Keterangan Singkat (Abstrak)
 
