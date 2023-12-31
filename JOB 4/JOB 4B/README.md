@@ -43,16 +43,16 @@ Pembahasan:<br>
 
 ### 4.1 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST
 1. Serial monitor<br>
-<img src="" width="500"><br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/3a2f9ec5-1bd4-4465-852f-8a6e5bfc1f32" width="500"><br>
 
 2. Debug pada Node Red<br>
-      <img src="" width="500"><br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/07ef68d8-8256-4308-9744-1f30c41a67e2" width="500"><br>
 
 3. Dashboard Node-Red<br>
-      <img src="" width="500"><br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6e510932-5eac-4544-b2c5-50d113a73a8b" width="500"><br>
 
 4. Tabel<br>
-      <img src="" width="500"><br>
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/156991a3-0440-4e18-a813-99c98c24910e" width="500"><br>
 
 Pembahasan:<br> 
 <p align="justify">
