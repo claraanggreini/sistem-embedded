@@ -20,10 +20,10 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 ## 4. Flow Chart
 ### 4.1 Flow Chart Kontrol Nyala LED Melalui Dashboard Node-RED
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/645aa18b-806a-432d-b73b-2fc021aefcb5)" width="500">
 
 ### 4.2 Flow Chart Kontrol Nyala LED Melalui Dashboard Adafruit
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8616c7bd-1c72-40bf-8b93-2ee3ceff0fbb" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/4d0c51bc-c413-40c5-9e20-d4c96cc62fd5" width="500">
 
 ## 5. Hasil dan Pembahasan
 ### 5.1 Hasil dan Pembahasan Kontrol Nyala LED Melalui Dashboard Node-RED
