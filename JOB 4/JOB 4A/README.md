@@ -2,7 +2,7 @@
 
 ## Flow Chart
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6ac11528-263c-4209-ac74-5e1cb9fc3509" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/ee9e85e0-9a7c-472e-b901-0737c83038aa" width="500">
 
 ## Source Code
 ### Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
