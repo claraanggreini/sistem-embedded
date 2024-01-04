@@ -9,11 +9,11 @@ yang tidak ada di ESP8266.</p>
 <p align="justify">Jobsheet ini bertujuan untuk memahami dan mengoperasikan GPIO pada ESP32, memahami dan melakukan pengolahan data untuk input/output analog dan digital, dan melakukan optimalisasi pembacaan sensor analog menggunakan metode regresi linear.</p>
 
 **Sub-job** pada jobsheet ini, antara lain:
-1. GPIO
-2. PWM
-3. ADC dan DAC
-4. Regresi Linier
-
+1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/a.%20GPIO/gpio.md">GPIO
+2. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/b.%20PWM/pwm.md">PWM
+3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/c.%20ADC%20dan%20DAC/ADCdanDAC.md">ADC dan DAC
+4. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/d.%20Regresi%20Linier/RegresiLinier.md">Regresi Linier
+   
 ## Alat dan Bahan
 **Alat dan bahan** yang digunakan dalam jobsheet ini, antara lain:
 1) ESP32
