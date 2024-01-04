@@ -13,6 +13,8 @@ yang tidak ada di ESP8266.</p>
 2. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/b.%20PWM/pwm.md">PWM
 3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/c.%20ADC%20dan%20DAC/ADCdanDAC.md">ADC dan DAC
 4. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%201/d.%20Regresi%20Linier/RegresiLinier.md">Regresi Linier
+
+<a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202%20.1/JOB%202.1%20E/e.md">Two-Way Communication
    
 ## Alat dan Bahan
 **Alat dan bahan** yang digunakan dalam jobsheet ini, antara lain:
