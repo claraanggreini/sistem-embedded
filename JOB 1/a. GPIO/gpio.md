@@ -3,11 +3,12 @@
 ## 1. LED Blink
 
 ### a. Rangkaian
-![rangkaian]()
+
 <img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/c9da9499-782d-4629-a176-ea2ece5338d4" width="500">
 
 
 ### b. Code
+
 <img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/242dc080-7a46-4b82-b394-084e1fb337c0" width="500">
 
 
