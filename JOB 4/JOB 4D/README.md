@@ -1,6 +1,6 @@
 # 4. EP32 | D.  Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT
 ## 1. Keterangan Singkat (Abstrak)
-<p align="justify">lalala
+<p align="justify">Dalam praktikum ini, program ESP32 menggunakan protokol MQTT untuk akuisisi data dari sensor dan kendali perangkat, seperti LED, melalui topik-topik MQTT. Setelah program diunggah, pemantauan dilakukan melalui serial monitor dan dashboard Node-Red untuk mengendalikan nyala LED menggunakan tombol switch pada dashboard. Praktikum kedua melibatkan kendali LED ESP32 menggunakan layanan MQTT dari Adafruit, dengan fokus pada pengendalian LED melalui dashboard yang tersedia di laman Adafruit.
 
 ## 2. Source Code
 ### 2.1. Source Code Kontrol Nyala LED Melalui Dashboard Node-RED
