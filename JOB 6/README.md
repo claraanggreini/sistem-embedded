@@ -1,26 +1,11 @@
-# Jobsheet 2 - PROTOKOL KOMUNIKASI DAN SENSOR 
+# Jobsheet 6 - TRANSMISI DATA MENGGUNAKAN MESSAGE QUEUING TELEMETRY TRANSPORT (MQTT) PROTOCOL
 
-<p align="justify">ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI. Terdapat point penting dalam percobaan kali ini, yaitu :
+<p align="justify">Jobsheet 6 merupakan jobsheet yang menggunakan protokol MQTT dalam prakteknya. Dalam jobsheet ini terdapat beberapa modul subjob yang mencakup berbagai aspek penting, termasuk:
 
-1. <p align="justify">UART (Universal Asynchronous Receiver Transmitter): UART adalah protokol dalam pengiriman data serial antara device satu dengan lainnya. Dalam pengiriman data, clock antara pengirim dan penerima harus sama karena paket data dikirim tiap bit mengandalkan clock tersebut.</p>
-2. <p align="justify">SPI (Serial Peripheral Interface): SPI adalah protokol komunikasi serial yang memungkinkan transfer data dengan kecepatan tinggi antara mikrokontroler dan perangkat lain. Protokol ini cocok untuk aplikasi yang membutuhkan transfer data dengan kecepatan tinggi, seperti pada layar LCD atau modul memori. SPI merupakan satu mode komunikasi serial synchrounous kecepatan tinggi yang dimiliki oleh Atmega 328. Komunikasi SPI membutuhkan 3 jalur yaitu MOSI, MISO, dan SCK.</p>
-3. <p align="justify">12C (Inter Integrated Circuit): I2C adalah protokol komunikasi serial yang memungkinkan beberapa perangkat terhubung ke dalam satu bus. Protokol ini cocok untuk aplikasi yang membutuhkan komunikasi antara beberapa perangkat dengan menggunakan hanya dua kabel. Bus yang digunakan untuk komunikasi antara mikrokontroler dan device lainnya seperi sensor, dll.</p>
+1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%206/a.%20Koneksi%20MQTT%20Broker/6a.md">**Koneksi MQTT Broker:**</a> Belajar melakukan koneksi dengan broker dan menerima pesan/data antara perangkat atau aplikasi. 
+2. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%206/b.%20Menerima%20Dta%20JSON%20Melalui%20Protokol%20MQTT/6b.md">**Menerima Data JSON Melalui Protokol MQTT:**</a> Belajar tentang menerima data dalam bentuk JSON menggunakan MQTT.
+3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%206/c%20Mengirim%20Dummy%20Data%20Untuk%20Simulasi%20Mengunakan%20Hardware/6c.md">**Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware:**</a> Belajar tentang mengirim data dummy menggunakan ekstensi MQTTbox.
 
-Terdapat 3 percobaan dalam jobsheet ini yaitu :
+<p align="justify">Jobsheet ini bertujuan untuk memberikan pemahaman tentang alur kerja, kegunaan, dan manfaat protokol MQTT dalam konteks Internet of Things (IoT). Selain itu, tujuan lainnya adalah memberikan keterampilan mengimplementasikan protokol MQTT dalam sebuah sistem IoT dengan fokus pada fungsi monitoring dan kendali. 
 
-1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/README.md">EP32 Capacitive Touch Sensor
-2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20B#readme">Mengakses Sensor DHT 11 (Single Wire  BUS)
-3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/README.md">Mengakses Sensor RFID (SPI Communication)
-
-## Alat dan Bahan
-**Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
-1) ESP32
-2) Breadboard
-3) Kabel jumper
-4) Sensor DHT11, RFID
-5) LED (5) dan Push Button (3)
-6) Servo
-7) Resistor 330,1K, 10K Ohm (@ 3)
-
-> [!NOTE]  
-> *Buka folder subjob percobaan untuk melihat laporan*
+Selamat mencoba dan semoga bermanfaat!
