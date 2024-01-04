@@ -9,7 +9,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 ## 2. Hasil dan Pembahasan
 
-### 3.1 Video 
+### 2.1 Video 
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/287c7157-47da-42d6-b696-88fb71558a41
 
 Pembahasan:<br> 
