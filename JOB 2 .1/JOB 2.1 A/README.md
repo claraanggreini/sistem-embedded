@@ -1,17 +1,13 @@
 # A. Memperoleh MAC Address ESP32 Receiver
 
-## 1. Keterangan Singkat (Abstrak)
-
-<p align="justify">
-
-## 2. Source Code
-### 2.1. Source Code
+## 1. Source Code
+### 1.1. Source Code
 
 Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202%20.1/JOB%202.1%20A/2.1_A/2.1_A.ino"> disini </a> atau dibawah ini
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/dfb04a79-e597-48cb-b34e-d996d0b5e63c" width="500">
 
-## 3. Hasil dan Pembahasan
+## 2. Hasil dan Pembahasan
 
 ### 3.1 Video 
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/287c7157-47da-42d6-b696-88fb71558a41
