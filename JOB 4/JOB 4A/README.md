@@ -2,7 +2,7 @@
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">lalala
+<p align="justify">Praktikum ini dilakukan dengan pengaturan SSID dan password Wi-Fi pada ESP32 melalui Web Server. Script Arduino IDE memungkinkan penyimpanan konfigurasi pada EEPROM, dengan ESP32 mencoba terhubung ke jaringan Wi-Fi terlebih dahulu. Hasil praktikum menunjukkan koneksi sukses dengan SSID "infinix GT10". Praktikum ini memberikan pemahaman praktis dalam mengimplementasikan konfigurasi jaringan nirkabel pada ESP32 melalui pendekatan Web Server.
 
 ## 3. Rangkaian
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a33422d8-7ac3-4c71-a0e4-ae7316f23112" width="500">
