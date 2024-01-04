@@ -52,4 +52,4 @@ Pembahasan:<br>
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/ac70b4dc-ed03-4916-947d-fdbfd2b91548
 
 Pembahasan:<br> 
-<p align="justify">
+<p align="justify">Praktikum Akuisisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT Melalui Dashboard Adafruit.io dilakukan dengan pengaturan nyala LED melalui dashboard Adafruit. Setelah membuat akun di io.adafruit.com dan mengonfigurasi dashboard, kita mendefinisikan IO USERNAME dan IO KEY pada program Arduino. Setelah konfigurasi feed selesai, hasilnya adalah pertama pada serial monitor muncul MQTT connecting.. connected yang artinya sudah terkoneksi. lalu pada switch di dashboard Adafruit.io dapat digunakan untuk mengontrol nyala LED, hal ini akan mempengaruhi nilai pada serial monitor  dengan angka 1 saat menyala dan 0 saat mati . Praktikum ini efektif menunjukkan penerapan MQTT dan kendali IoT melalui antarmuka dashboard Adafruit.io.
