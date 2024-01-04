@@ -2,7 +2,7 @@
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">lalala
+<p align="justify">Praktikum "Transmisi Data Menggunakan Protokol HTTP" melibatkan pembuatan database lokal "banjir_db" dan tabel "smartwater" melalui phpMyAdmin. Eksperimen ini mengintegrasikan kode JSON pada program Multi-Protocol IoT Server ke Node-RED. Pada tahap selanjutnya, ESP32 melakukan transmisi data dummy ke Node-Red menggunakan protokol HTTP (GET dan POST). Hasil eksperimen mencakup output dari serial monitor, debugging Node-Red, dan tampilan dashboard Node-RED. Praktikum ini bertujuan mendemonstrasikan penggunaan protokol HTTP dalam mentransmisikan data antara perangkat dan Node-RED.
 
 ## 2. Source Code
 ### 2.1. Source Code Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
