@@ -3,10 +3,14 @@
 ## 1. LED Blink
 
 ### a. Rangkaian
-![rangkaian](https://github.com/FerdyRino/SistemEmbedded/assets/151800680/c9da9499-782d-4629-a176-ea2ece5338d4)
+
+<img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/c9da9499-782d-4629-a176-ea2ece5338d4" width="500">
+
 
 ### b. Code
-![1 1](https://github.com/FerdyRino/SistemEmbedded/assets/151800680/242dc080-7a46-4b82-b394-084e1fb337c0)
+
+<img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/242dc080-7a46-4b82-b394-084e1fb337c0" width="500">
+
 
 ### c. Hasil dan Pembahasan
 Agar LED dapat berkedip dengan Interval yang berbeda, kita perlu mengatur nilai `delai()` dan `milis()`
@@ -28,7 +32,7 @@ https://github.com/FerdyRino/SistemEmbedded/assets/151800680/223c324d-53ac-42a4-
 ### a. Rangkaian 
 
 ### b. Code
-![1 2](https://github.com/FerdyRino/SistemEmbedded/assets/151800680/445ee118-7e31-4888-9ecb-2c4a3a744901)
+<img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/445ee118-7e31-4888-9ecb-2c4a3a744901" width="500">
 
 ### c. Hasil dan Pembahasan
 Pada percobaan ini dengan menambahkan pushbutton sebagai input, maka output dari percobaan ini LED akan menyala
@@ -41,7 +45,7 @@ https://github.com/FerdyRino/SistemEmbedded/assets/151800680/0e0b775d-d38e-441e-
 ### a. Rangkaian 
 
 ### b. Code
-![1 3](https://github.com/FerdyRino/SistemEmbedded/assets/151800680/05d92c0a-d4ad-4348-a6f9-b54d43d7b0a5)
+<img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/05d92c0a-d4ad-4348-a6f9-b54d43d7b0a5" width="500">
 
 ### c. Hasil dan Pembahasan
 Pada percobaan ini dengan menambahkan pushbutton sebagai input, maka output dari percobaan ini LED akan berkedip
@@ -54,7 +58,7 @@ https://github.com/FerdyRino/SistemEmbedded/assets/151800680/7456a5e3-4ba9-40c5-
 ### a. Rangkaian 
 
 ### b. Code
-![1 3](https://github.com/FerdyRino/SistemEmbedded/assets/151800680/5d0204ff-5efe-42ac-ae1e-3806a683c750)
+<img src="https://github.com/FerdyRino/SistemEmbedded/assets/151800680/5d0204ff-5efe-42ac-ae1e-3806a683c750" width="500">
 
 ### c. Hasil dan Pembahasan
 Pada percobaan ini ketika push button ketiga ditekan, lampu LED akan secara running berturut-turut menyala dari sisi kiri ke kanan. Namun, ketika push button dilepaskan, ketiga LED tersebut akan mematikan.
