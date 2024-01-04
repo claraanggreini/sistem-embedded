@@ -1,10 +1,17 @@
-# 4. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
+# 4. EP32 | A. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 
-## Flow Chart
+## 1. Keterangan Singkat (Abstrak)
 
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/6ac11528-263c-4209-ac74-5e1cb9fc3509" width="500">
+<p align="justify">Praktikum ini dilakukan dengan pengaturan SSID dan password Wi-Fi pada ESP32 melalui Web Server. Script Arduino IDE memungkinkan penyimpanan konfigurasi pada EEPROM, dengan ESP32 mencoba terhubung ke jaringan Wi-Fi terlebih dahulu. Hasil praktikum menunjukkan koneksi sukses dengan SSID "infinix GT10". Praktikum ini memberikan pemahaman praktis dalam mengimplementasikan konfigurasi jaringan nirkabel pada ESP32 melalui pendekatan Web Server.
 
-## Source Code
+## 2. Rangkaian
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a33422d8-7ac3-4c71-a0e4-ae7316f23112" width="500">
+
+## 3. Flow Chart
+
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/ee9e85e0-9a7c-472e-b901-0737c83038aa" width="500">
+
+## 4. Source Code
 ### Source Code Setting SSID dan Password Wi-Fi ESP32 melalui Web Server
 
 Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%204/JOB%204A/JOB4_A/JOB4_A.ino"> disini </a> atau dibawah ini
@@ -12,7 +19,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/97c137aa-6da6-456d-96c6-b2bc1fea5b69" width="500">
 
 
-## Hasil dan Pembahasan
+## 5. Hasil dan Pembahasan
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/4d627f1c-bdcd-420a-9a5d-1b86a91cbb15" width="500">
 
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/a1d84a90-e48e-4361-9f82-09f4a91edd9d" width="500">

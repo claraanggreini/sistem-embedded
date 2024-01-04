@@ -1,4 +1,4 @@
-# 3. EP32 | C. Mengakses Sensor RFID (SPI Communication)
+# 2. EP32 | C. Mengakses Sensor RFID (SPI Communication)
 
 ## 1. Keterangan Singkat (Abstrak)
 

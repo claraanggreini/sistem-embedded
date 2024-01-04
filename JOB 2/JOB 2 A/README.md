@@ -1,4 +1,4 @@
-# 1. EP32 | A. Capacitive Touch Sensor
+# 2. EP32 | A. Capacitive Touch Sensor
 
 ## 1. Keterangan Singkat (Abstrak)
 

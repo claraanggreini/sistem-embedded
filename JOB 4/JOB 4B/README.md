@@ -2,7 +2,7 @@
 
 ## 1. Keterangan Singkat (Abstrak)
 
-<p align="justify">lalala
+<p align="justify">Praktikum "Transmisi Data Menggunakan Protokol HTTP" melibatkan pembuatan database lokal "banjir_db" dan tabel "smartwater" melalui phpMyAdmin. Eksperimen ini mengintegrasikan kode JSON pada program Multi-Protocol IoT Server ke Node-RED. Pada tahap selanjutnya, ESP32 melakukan transmisi data dummy ke Node-Red menggunakan protokol HTTP (GET dan POST). Hasil eksperimen mencakup output dari serial monitor, debugging Node-Red, dan tampilan dashboard Node-RED. Praktikum ini bertujuan mendemonstrasikan penggunaan protokol HTTP dalam mentransmisikan data antara perangkat dan Node-RED dengan metode GET dan POST.
 
 ## 2. Source Code
 ### 2.1. Source Code Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
@@ -22,10 +22,10 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 
 ## 4. Flow Chart
 ### 4.1 Flow Chart Langkah 1-6 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get)
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/bd015340-79f7-4462-a202-e6803af2b103" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/f007e59f-dce4-42b4-8066-99ac169b720f" width="500">
 
 ### 4.2 Flow Chart Langkah 7-9 ( transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST)
-<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/8616c7bd-1c72-40bf-8b93-2ee3ceff0fbb" width="500">
+<img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/add2f1b0-a5ba-4fd6-a01a-ea76ed9f217e" width="500">
 
 ## 5. Hasil dan Pembahasan
 ### 5.1 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode Get
@@ -42,7 +42,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
       <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/00b7cc7d-5732-4785-bfc7-98c086ec91f7" width="500"><br>
 
 Pembahasan:<br> 
-<p align="justify">
+<p align="justify">Praktikum "Transmisi Data Menggunakan Protokol HTTP (GET)" melibatkan langkah-langkah mulai dari pembuatan dan pengisian database "banjir_db" dengan tabel "smartwater" sesuai panduan jobsheet. Node-Red-dashboard diinstal, dan kode JSON Multi-Protocol IoT Server diimpor ke Node-Red untuk menampilkan flow rangkaian. Selanjutnya, dilakukan instalasi library JSON5 pada Arduino, diikuti dengan mengunggah program protokol HTTP (GET). Setelah sukses diunggah, dilakukan klik "Deploy" pada Node-Red. Hasil praktikum mencakup munculnya keterangan dev_id: 28, level: 5, rainfall: 10.2, flow: 12, dan status: 1 pada serial monitor, tabel, dan debug di Node-Red, serta terpantau pada dashboard Node-Red melalui tampilan web dalam bentuk flow. Praktikum ini berhasil mendemonstrasikan transmisi data menggunakan protokol HTTP (GET) antara perangkat dan Node-Red dengan integrasi yang efektif.
 
 ### 5.2 Hasil dan Pembahasan transmisi data dummy menuju Node-Red menggunakan protokol HTTP metode POST
 1. Serial monitor<br>
@@ -58,4 +58,5 @@ Pembahasan:<br>
 <img src="https://github.com/claraanggreini/sistem-embedded/assets/150989360/156991a3-0440-4e18-a813-99c98c24910e" width="500"><br>
 
 Pembahasan:<br> 
-<p align="justify">
+<p align="justify">Transmisi Data Menggunakan Protokol HTTP (POST) melibatkan langkah-langkah seperti pembuatan database "banjir_db", pengisian tabel "smartwater", instalasi node-red-dashboard, dan impor kode JSON Multi-Protocol IoT Server ke Node-Red. Selanjutnya, dilakukan instalasi library JSON5 pada Arduino, diikuti dengan mengunggah program protokol HTTP (POST).
+Setelah berhasil diunggah, dilakukan klik "Deploy" pada Node-Red. Hasil praktikum mencakup tampilan "HTTP response code is: 200" pada serial monitor, serta munculnya keterangan "dev_id: 28, level: 58, rainfall: 9.2, flow: 10, dan status: 1" pada debug di Node-Red, sesuai dengan data tabel yang diakses. Pada dashboard Node-Red, data tersebut tergambar dalam bentuk grafik dan flow pada tampilan web. Praktikum ini berhasil mendemonstrasikan transmisi data menggunakan protokol HTTP (POST), di mana data yang dikirim dari perangkat dapat diakses dan divisualisasikan dengan baik melalui Node-Red, termasuk tampilan dalam bentuk grafik pada dashboard yang memudahkan pemantauan dan analisis. Keberhasilan ini menunjukkan efektivitas protokol HTTP (POST) dalam transmisi data IoT pada lingkungan Node-Red.
