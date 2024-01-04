@@ -1,26 +1,29 @@
-# Jobsheet 2 - PROTOKOL KOMUNIKASI DAN SENSOR 
+# JOBSHEET 3 - TOPOLOGI JARINGAN LOKAL DAN WIFI
 
-<p align="justify">ESP32 adalah nama dari mikrokontroler yang dirancang oleh perusahaan yang berbasis di Shanghai, China yakni Espressif Systems. ESP32 menawarkan solusi jaringan WiFi dan BLE. ESP32 menggunakan prosesor dual core yang berjalan di instruksi Xtensa LX16. Selain itu, ESP32 telah mendukung protokol komunikasi seperti I2C, UART dan SPI. Terdapat point penting dalam percobaan kali ini, yaitu :
+## Abstrak
+<p align="justify">WiFi, singkatan dari Wireless Fidelity, adalah adalah teknologi yang menggunakan gelombang radio dalam rentang 2,4GHz sampai 5GHz untuk menghubungkan perangkat seperti PC, smartphone, dan perangkat microcontroller ke jaringan wireless agar bisa mengakses akses internet. Perangkat ini perlu berada dalam jarak sekitar 20 meter dari hotspot wifi. Pada awalnya WiFi hanya berfungsi sebagai perangkat nirkabel dalam jaringan LAN (Local Area Network), tetapi seiring perkembangan teknologi, WiFi sekarang telah menjadi suatu kebutuhan penting dalam keseharian untuk mengakses internet dan IoT. 
+Data yang dikirim melalui wifi menggunakan gelombang radio dan memerlukan wireless adaptor untuk penerimaannya. Gelombang radio ini kemudian dikirim ke router yang menguraikan kode data sebelum dikirim ke internet melalui koneksi ethernet. Jaringan wifi bekerja dalam dua arah, mengirim dan menerima data dalam bentuk paket yang dikirim ulang sebagai sinyal radio oleh adaptor komputer nirkabel.</p>
 
-1. <p align="justify">UART (Universal Asynchronous Receiver Transmitter): UART adalah protokol dalam pengiriman data serial antara device satu dengan lainnya. Dalam pengiriman data, clock antara pengirim dan penerima harus sama karena paket data dikirim tiap bit mengandalkan clock tersebut.</p>
-2. <p align="justify">SPI (Serial Peripheral Interface): SPI adalah protokol komunikasi serial yang memungkinkan transfer data dengan kecepatan tinggi antara mikrokontroler dan perangkat lain. Protokol ini cocok untuk aplikasi yang membutuhkan transfer data dengan kecepatan tinggi, seperti pada layar LCD atau modul memori. SPI merupakan satu mode komunikasi serial synchrounous kecepatan tinggi yang dimiliki oleh Atmega 328. Komunikasi SPI membutuhkan 3 jalur yaitu MOSI, MISO, dan SCK.</p>
-3. <p align="justify">12C (Inter Integrated Circuit): I2C adalah protokol komunikasi serial yang memungkinkan beberapa perangkat terhubung ke dalam satu bus. Protokol ini cocok untuk aplikasi yang membutuhkan komunikasi antara beberapa perangkat dengan menggunakan hanya dua kabel. Bus yang digunakan untuk komunikasi antara mikrokontroler dan device lainnya seperi sensor, dll.</p>
+<p align="justify">Pada jobsheet ini bertujuan untuk memahami cara kerja protokol topologi jaringan lokal Wi-Fi, merancang topologi jaringan untuk penerapan Wireless Sensor Network (WSN) dan Internet of Things (IoT), serta mampu memilih dan menerapkan topologi yang sesuai dengan situasi lapangan untuk keperluan WSN dan IoT.</p>
 
-Terdapat 3 percobaan dalam jobsheet ini yaitu :
-
-1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20A/README.md">EP32 Capacitive Touch Sensor
-2. <a href="https://github.com/claraanggreini/sistem-embedded/tree/master/JOB%202/JOB%202%20B#readme">Mengakses Sensor DHT 11 (Single Wire  BUS)
-3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%202/JOB%202%20C/README.md">Mengakses Sensor RFID (SPI Communication)
+Terdapat 6 percobaan dalam jobsheet ini yaitu :
+1. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%203/3A/3A.ESP32%20Wi-Fi%20Modes%20dan%20Wifi-Scan.md">ESP32 Wi-Fi Modes dan Wifi-Scan
+2. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%203/3B/3B.Menghubungkan%20ESP32%20dengan%20Jaringan%20Wi-Fi.md">Menghubungkan ESP32 dengan Jaringan Wi-Fi
+3. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%203/3C/3C.%20Menghubungkan%20Kembali%20(Re-connect)%20ESP32%20dengan%20Jaringan%20Wi-Fi.md">Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
+4. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%203/3D/D.Mengganti%20Hostname%20ESP32.md">Mengganti Hostname ESP32
+5. <a href="https://github.com/claraanggreini/sistem-embedded/blob/master/JOB%203/3E/3E.%20Mengirim%20Data%20Sensor%20ke%20Database.md">Mengirim Data Sensor ke Database
+6. <a href="">Pertanyaan dan Tugas
 
 ## Alat dan Bahan
-**Alat dan Bahan** yang digunakan dalam praktikum ini, antara lain:
-1) ESP32
-2) Breadboard
-3) Kabel jumper
-4) Sensor DHT11, RFID
-5) LED (5) dan Push Button (3)
-6) Servo
-7) Resistor 330,1K, 10K Ohm (@ 3)
+
+Alat dan bahan yang digunakan dalam jobsheet ini, antara lain:
+  1. ESP32
+  2. Breadboard
+  3. Kabel jumper
+  4. Sensor DHT 11, RFID
+  5. LED (5) dan Push Button (3)
+  6. Servo
+  7. Resistor 330, 1K, 10K Ohm (@3)
 
 > [!NOTE]  
-> *Buka folder subjob percobaan untuk melihat laporan*
+> *Buka folder subjob percobaan untuk melihat laporan percobaan*
