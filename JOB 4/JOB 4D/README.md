@@ -41,7 +41,7 @@ Program dapat dilihat <a href="https://github.com/claraanggreini/sistem-embedded
 https://github.com/claraanggreini/sistem-embedded/assets/150989360/3e14f20f-2a1e-44de-a0c9-0fb72b0cd66e
 
 Pembahasan:<br> 
-<p align="justify">
+<p align="justify">Praktikum Akuisisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT melibatkan penggabungan konsep MQTT dengan pengaturan nyala LED pada Node-Red dashboard. Proses dimulai dengan menghubungkan LED ke pin D2, yang dapat dikendalikan melalui tombol switch di dashboard Node-Red. Setelah program diunggah, hasil pemantauan pada serial monitor menunjukkan status MQTT connecting.. connected yang artinya sudah terkoneksi. Selain itu, debug node red dan tabel menampilkan data seperti dev-id: 28, level 25, rainfall 5.25, dan flow: 10. Dashboard Node-Red menampilkan data tersebut dalam bentuk grafik dan flow yang dapat diakses melalui web. Yang menarik, pengguna dapat mengontrol LED melalui switch di dashboard web, di mana LED akan menyala jika switch diaktifkan dan sebaliknya. Praktikum ini berhasil menggabungkan MQTT, Node-Red, dan pengendalian perangkat IoT dalam satu sistem yang responsif dan dapat diakses melalui antarmuka web.
 
 ### 5.1 Hasil dan Pembahasan Kontrol Nyala LED Melalui Dashboard Adafruit
 1. Serial monitor<br>
